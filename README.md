@@ -1,7 +1,3 @@
-画面遷移図
-https://www.figma.com/design/t6d8lv9hHXj49bZN5oKT8D/runteq%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C?node-id=0-1&t=4GV1JFR0fZyy3SmQ-0
-
-
 README
 ■サービス名
 コドラ
