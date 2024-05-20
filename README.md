@@ -52,3 +52,6 @@ MVP
 開発環境: docker
 バックエンド: Ruby 3.2.2/Ruby on Rails 7系
 データベース: MySQL
+
+
+[![Image from Gyazo](https://i.gyazo.com/7e73709546f49de6076c7e34576d00d4.png)](https://gyazo.com/7e73709546f49de6076c7e34576d00d4)
