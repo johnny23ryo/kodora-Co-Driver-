@@ -1,0 +1,40 @@
+<div class="min-h-screen flex items-center justify-center bg-customGreen p-4">
+  <div class="p-8 rounded-lg shadow-lg w-100vw">
+    <h1 class="font-bold text-center text-white mb-8 text-4xl">ユーザー登録</h1>
+    <% if @user.errors.any? %>
+      <div class="bg-red-500 text-white p-4 mb-6 rounded">
+        <ul>
+          <% @user.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <div class="bg-gray-700 p-6 rounded-lg">
+      <%= form_with model: @user, class: "space-y-6 flex flex-col justify-center items-center" do |f| %>
+        <div class = "mb-4">
+          <%= f.label :name, "ニックネーム", class: "block text-2xl text-white font-bold " %>
+          <%= f.text_field :name, class: "form-input mt-1 block w-full text-xl text-black bg-gray-200 rounded-md w-50vw" %>
+        </div>
+        <div class = "mb-4">
+          <%= f.label :email, "メールアドレス", class: "block text-2xl text-white font-bold " %>
+          <%= f.email_field :email, class: "form-input mt-1 block w-full text-xl text-black bg-gray-200 rounded-md" %>
+        </div>
+        <div class = "mb-4">
+          <%= f.label :password, "パスワード", class: "block text-2xl text-white font-bold " %>
+          <%= f.password_field :password, class: "form-input mt-1 block w-full text-xl text-black bg-gray-200 rounded-md" %>
+        </div>
+        <div class = "mb-4">
+          <%= f.label :password_confirmation, "パスワード確認", class: "block text-2xl text-white font-bold " %>
+          <%= f.password_field :password_confirmation, class: "form-input mt-1 block w-full text-xl text-black bg-gray-200 rounded-md" %>
+        </div>
+        <div class="text-center mt-6">
+          <%= f.submit "登録", class: "text-white font-bold text-2xl px-6 font-bold " %>
+        </div>
+      <% end %>
+      <div class="text-center">
+        <%= link_to 'ログインページへ', login_path, class: "text-2xl text-white hover:text-gray-400 font-bold " %>
+      </div>
+    </div>
+  </div>
+</div>

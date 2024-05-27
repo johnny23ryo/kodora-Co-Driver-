@@ -11,6 +11,10 @@ module.exports = {
         customGreen: '#4D5139',
         customYellow: '#B69900',
       },
+      width: {
+        '50vw': '50vw',
+        '100vw': '100vw',
+      },
     },
   },
 }

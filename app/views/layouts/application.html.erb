@@ -11,7 +11,17 @@
   </head>
 
   <body class="flex flex-col min-h-screen bg-gray-100">
+    <% if logged_in? %>
     <%= render 'shared/header' %>
+    <% else %>
+      <%= render 'shared/before_login_header' %>
+    <% end %>
+    <div class="container">
+      <% flash.each do |key, message| %>
+        <div class="flash <%= key %>"><%= message %></div>
+      <% end %>
+    </div>
+
     <main class="flex-grow">
       <%= yield %>
     </main>

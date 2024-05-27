@@ -17,3 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+import Rails from "@rails/ujs"
+
+Rails.start()
