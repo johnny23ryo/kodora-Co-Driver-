@@ -29,7 +29,14 @@ gem "cssbundling-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# 認証 ユーザー登録、ユーザーログイン
 gem 'sorcery'
+
+# グーグルマップapi導入 HTTPリクエストを送信してデータを取得
+gem 'httparty'
+
+# グーグルマップapi導入 .env ファイルにAPIキーやパスワードなどの環境変数を保存
+gem 'dotenv-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
