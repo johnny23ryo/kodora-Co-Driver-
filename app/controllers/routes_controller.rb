@@ -10,10 +10,9 @@ class RoutesController < ApplicationController
                      end
     end_location = params[:end_location]
 
-    @start_location = start_location
-    @end_location = end_location
-
-    # Render the new template with the calculated route information
-    render :new
+    respond_to do |format|
+      format.html { render :new }
+      format.json { render json: { start_location: start_location, end_location: end_location } }
+    end
   end
 end
