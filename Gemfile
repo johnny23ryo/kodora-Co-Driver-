@@ -38,6 +38,12 @@ gem 'httparty'
 # グーグルマップapi導入 .env ファイルにAPIキーやパスワードなどの環境変数を保存
 gem 'dotenv-rails'
 
+# 投稿一覧の画像アップロード
+gem 'carrierwave'
+
+# 画像のリサイズ
+gem 'mini_magick'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 

@@ -13,15 +13,15 @@
     <div class="bg-gray-300 p-6 rounded-lg">
       <%= form_with model: @post, local: true, html: { multipart: true }, class: "space-y-6" do |f| %>
         <div>
-          <%= f.label :image, "イベントイメージ画像", class: "block text-2xl font-bold mb-2 text-white" %>
-          <%= f.file_field :image, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
+          <%= f.label :post_image, "イベントイメージ画像( png, jpg, jpeg, gif 対応 )", class: "block text-2xl font-bold mb-2 text-white" , accept: 'image/png,image/gif,image/jpeg,image/jpg' %>
+          <%= f.file_field :post_image, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
         </div>
         <div>
-          <%= f.label :title, "イベントタイトル", class: "block text-2xl font-bold mb-2 text-white" %>
+          <%= f.label :title, "イベントタイトル( 必須 )", class: "block text-2xl font-bold mb-2 text-white" %>
           <%= f.text_field :title, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
         </div>
         <div>
-          <%= f.label :locaiton, "都道府県", class: "block text-2xl font-bold mb-2 text-white" %>
+          <%= f.label :location, "都道府県", class: "block text-2xl font-bold mb-2 text-white" %>
           <%= f.select :location, options_for_select([
               '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
               '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県',
