@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Route Search</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['GOOGLE_MAPS_API_KEY'] %>&callback=initMap" async defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    #map { height: 400px; width: 100%; }
+  </style>
+</head>
+<body onload="setCurrentLocationAsStart()" class="bg-gray-100">
+  <main class="container mx-auto mt-8">
+    <div class="bg-white p-8 shadow-md rounded-lg">
+      <h2 class="text-2xl font-semibold mb-6">ルート検索</h2>
+      <%= form_with(url: routes_path, method: :get, local: true, class: "space-y-4") do |form| %>
+        <div>
+          <%= form.label :start_location, "出発地点", class: "block text-xl font-bold mb-2" %>
+          <%= form.text_field :start_location, id: "start_location", class: "form-input mt-1 block w-full p-2 border rounded" %>
+          <%= form.hidden_field :start_latitude, id: "start_latitude" %>
+          <%= form.hidden_field :start_longitude, id: "start_longitude" %>
+        </div>
+        <div>
+          <%= form.label :end_location, "到着地点", class: "block text-xl font-bold mb-2" %>
+          <%= form.text_field :end_location, id: "end_location", class: "form-input mt-1 block w-full p-2 border rounded" %>
+        </div>
+        <div class="text-center">
+          <%= form.submit "ルート検索", class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" %>
+        </div>
+      <% end %>
+      <p id="duration" class="mt-4 text-xl font-semibold"></p>
+    </div>
+    <div id="map" class="mt-8 bg-gray-200 rounded-lg shadow-md"></div>
+    <div id="directions-panel" class="mt-8 bg-white p-4 shadow-md rounded-lg"></div>
+  </main>
+
+  <script>
+    function initMap() {
+      const directionsService = new google.maps.DirectionsService();
+      const directionsRenderer = new google.maps.DirectionsRenderer({
+        map: new google.maps.Map(document.getElementById('map'), { zoom: 7, center: { lat: 35.6895, lng: 139.6917 } }),
+        panel: document.getElementById('directions-panel')
+      });
+
+      document.querySelector('form').addEventListener('submit', event => {
+        event.preventDefault();
+        calculateAndDisplayRoute(directionsService, directionsRenderer);
+      });
+    }
+
+    function calculateAndDisplayRoute(directionsService, directionsRenderer) {
+      let start = document.getElementById('start_location').value;
+      const end = document.getElementById('end_location').value;
+
+      if (start === '現在地') {
+        start = `${document.getElementById('start_latitude').value},${document.getElementById('start_longitude').value}`;
+      }
+
+      directionsService.route({
+        origin: start,
+        destination: end,
+        travelMode: 'DRIVING'
+      }, (response, status) => {
+        if (status === 'OK') {
+          directionsRenderer.setDirections(response);
+          document.getElementById('duration').innerText = `所要時間: ${response.routes[0].legs[0].duration.text}`;
+        } else {
+          window.alert('Directions request failed due to ' + status);
+        }
+      });
+    }
+
+    function setCurrentLocationAsStart() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(position => {
+          document.getElementById('start_location').value = '現在地';
+          document.getElementById('start_latitude').value = position.coords.latitude;
+          document.getElementById('start_longitude').value = position.coords.longitude;
+        }, error => alert(getLocationErrorMessage(error)));
+      } else {
+        alert('このブラウザは位置情報サービスをサポートしていません。');
+      }
+    }
+
+    function getLocationErrorMessage(error) {
+      switch (error.code) {
+        case error.PERMISSION_DENIED:
+          return '位置情報サービスの利用が拒否されました。ブラウザの設定から位置情報サービスを許可してください。';
+        case error.POSITION_UNAVAILABLE:
+          return '位置情報の情報が利用できません。';
+        case error.TIMEOUT:
+          return '位置情報のリクエストがタイムアウトしました。';
+        default:
+          return '不明なエラーが発生しました。';
+      }
+    }
+  </script>
+</body>
+</html>
