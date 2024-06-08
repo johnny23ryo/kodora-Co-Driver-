@@ -6,3 +6,12 @@ ja:
       previous: "&lsaquo; 前"
       next: "次 &rsaquo;"
       truncate: "&hellip;"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            password:
+              too_short: "は%{count}文字以上で入力してください"
+            password_confirmation:
+              confirmation: "が一致しません"

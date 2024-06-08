@@ -3,7 +3,7 @@ class User < ApplicationRecord
 
   attr_accessor :password_confirmation
 
-  validates :name, presence: true
+  validates :name, length: { minimum: 3 }, presence: true
   validates :email, presence: true, uniqueness: true
   validates :password, length: { minimum: 3 }, if: -> { new_record? || changes[:crypted_password] }
   validates :password, confirmation: true, if: -> { new_record? || changes[:crypted_password] }
