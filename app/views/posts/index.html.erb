@@ -1,7 +1,6 @@
 <div class="min-h-screen flex items-center justify-center bg-customGreen p-8">
   <div class="w-full max-w-7xl p-8 rounded-lg shadow-lg m-0 mx-auto">
     <h1 class="font-bold text-center text-white mb-6 text-4xl">投稿一覧</h1>
-    <%= link_to '新規投稿作成', new_post_path, class: "text-white font-bold text-2xl" %>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <% @posts.each do |post| %>
@@ -11,9 +10,12 @@
           <% else %>
             <img src="<%= asset_path('default.png') %>" alt="デフォルト画像" class="my-4 object-cover w-full h-300">
           <% end %>
+          <% if post.user %>
+            <p class="text-2xl"><strong>投稿者:</strong> <br> <%= post.user.name %></p>
+          <% else %>
+            <p class="text-2xl"><strong>投稿者:</strong> <br>未ログインユーザー</p>
+          <% end %>
           <p class="text-2xl mb-4"><span class="font-bold">イベント名:</span><br> <%= post.title %></p>
-          <p class="text-2xl mb-4 mt-4"><span class="font-bold">都道府県:</span><br><%= post.location %></p>
-          <p class="text-2xl"><span class="font-bold">期間:</span><br><%= post.start_date %> 日~ <%= post.end_date %> 日まで開催</p>
           <%= link_to '詳細を見る', post_path(post), class: "text-blue-500 hover:text-blue-700 text-xl font-bold mt-4" %>
         </div>
       <% end %>

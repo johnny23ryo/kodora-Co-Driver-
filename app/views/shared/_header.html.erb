@@ -9,6 +9,12 @@
           <%= link_to '新規投稿作成', new_post_path, class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold' %>
           <%= link_to 'イベント一覧', posts_path, class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold' %>
           <%= link_to 'マイページ', '#', class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold' %>
+           <!--イベント一覧のAddUserIdToPostsの投稿者表示を流用-->
+          <% if current_user %>
+            <p class="text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold">ログイン中: <%= current_user.name %>殿</p>
+          <% else %>
+            <p class="text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold">未ログインユーザー</p>
+          <% end %>
           <%= link_to 'ログアウト', logout_path, method: :delete, data: { turbo_method: :delete, confirm: '本当にログアウトしますか？' } %>
         </div>
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
