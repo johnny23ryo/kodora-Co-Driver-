@@ -1,0 +1,39 @@
+<div class="min-h-screen flex items-center justify-center bg-customGreen text-white">
+  <div class="w-full max-w-4xl p-8 bg-gray-500 rounded-lg shadow-lg">
+    <h1 class="text-4xl font-bold mb-6 text-center">マイページ編集</h1>
+    <%= form_with model: @user, local: true, class: "space-y-6" do |f| %>
+      <div class="flex items-center justify-between mb-6">
+        <div class="flex items-center">
+          <% if @user.avatar.present? %>
+            <img src="<%= @user.avatar.url %>" alt="プロフィール画像" class="w-24 h-24 rounded-full">
+          <% else %>
+            <img src="<%= asset_path('default.png') %>" alt="デフォルト画像" class="w-24 h-24 rounded-full">
+          <% end %>
+          <div class="ml-4">
+            <%= f.file_field :avatar, class: "hidden", id: "file-upload" %>
+            <label for="file-upload" class="bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-700 cursor-pointer">アイコン変更</label>
+          </div>
+        </div>
+      </div>
+      <div>
+        <%= f.label :name, "ニックネーム", class: "block text-2xl font-bold mb-2" %>
+        <%= f.text_field :name, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
+      </div>
+      <div>
+        <%= f.label :email, "メールアドレス", class: "block text-2xl font-bold mb-2" %>
+        <%= f.email_field :email, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
+      </div>
+      <div>
+        <%= f.label :password, "パスワード", class: "block text-2xl font-bold mb-2" %>
+        <%= f.password_field :password, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
+      </div>
+      <div>
+        <%= f.label :password_confirmation, "パスワード確認", class: "block text-2xl font-bold mb-2" %>
+        <%= f.password_field :password_confirmation, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
+      </div>
+      <div class="text-center mt-6">
+        <%= f.submit "更新", class: "bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-700 cursor-pointer" %>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -11,4 +11,7 @@ class User < ApplicationRecord
 
   # ユーザーネーム関連付けるため
   has_many :posts
+
+  # マイページ画像
+  mount_uploader :avatar, AvatarUploader
 end

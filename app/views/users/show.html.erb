@@ -1,0 +1,35 @@
+<div class="min-h-screen flex items-center justify-center bg-customGreen text-white">
+  <div class="w-full max-w-4xl p-8 bg-gray-400 rounded-lg shadow-lg">
+    <h1 class="text-4xl font-bold mb-6 text-center">マイページ</h1>
+    <div class="flex items-center justify-between mb-6">
+      <div class="flex items-center">
+        <% if current_user.avatar.present? %>
+          <img src="<%= current_user.avatar.url %>" alt="プロフィール画像" class="w-24 h-24 rounded-full">
+        <% else %>
+          <img src="<%= asset_path('default.png') %>" alt="デフォルト画像" class="w-24 h-24 rounded-full">
+        <% end %>
+        <div class="ml-4">
+          <p class="text-2xl font-bold"><%= current_user.name %></p>
+        </div>
+      </div>
+      <div>
+        <%= link_to '編集', edit_user_path(current_user), class: "bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700" %>
+        <%= link_to 'ログアウト', logout_path, method: :delete, data: { turbo_method: :delete, confirm: '本当にログアウトしますか？' }, class: 'bg-red-500 text-white font-bold py-2 px-4 rounded hover:bg-red-700' %>
+      </div>
+    </div>
+    <h2 class="text-2xl font-bold mb-4">マイイベント投稿一覧</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <% @posts.each do |post| %>
+        <div class="bg-gray-700 p-4 rounded-lg shadow-lg">
+          <% if post.post_image.present? %>
+            <img src="<%= post.post_image.url %>" alt="画像" class="w-full h-64 object-cover rounded-lg mb-4">
+          <% else %>
+            <img src="<%= asset_path('default.png') %>" alt="デフォルト画像" class="w-full h-64 object-cover rounded-lg mb-4">
+          <% end %>
+          <p class="text-xl font-bold mb-2"><%= post.title %></p>
+          <p class="text-md"><%= post.location %></p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
