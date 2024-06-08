@@ -44,6 +44,9 @@ gem 'carrierwave'
 # 画像のリサイズ
 gem 'mini_magick'
 
+# ページネーション
+gem 'kaminari'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 

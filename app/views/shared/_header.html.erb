@@ -6,6 +6,7 @@
           <%= link_to 'コドラ', root_path, class: "text-white font-bold text-xl" %>
         </div>
         <div class="hidden sm:flex sm:items-center sm:space-x-4">
+          <%= link_to '新規投稿作成', new_post_path, class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold' %>
           <%= link_to 'イベント一覧', posts_path, class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold' %>
           <%= link_to 'マイページ', '#', class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold' %>
           <%= link_to 'ログアウト', logout_path, method: :delete, data: { turbo_method: :delete, confirm: '本当にログアウトしますか？' } %>
