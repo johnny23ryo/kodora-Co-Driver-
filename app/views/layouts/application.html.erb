@@ -24,11 +24,11 @@
     <%= render 'shared/before_login_header' %>
   <% end %>
 
-  <% flash.each do |key, message| %>
-    <div class="flash <%= key %> bg-<%= key == 'notice' ? 'green' : 'red' %>-500 text-white bg-custom-Green p-4 rounded">
-      <%= message %>
-    </div>
-  <% end %>
+    <% flash.each do |key, message| %>
+      <div class="flash <%= key %> <%= key == 'notice' ? 'bg-green-500' : 'bg-red-500' %> text-white p-4 rounded">
+        <%= message %>
+      </div>
+    <% end %>
 
   <main class="flex-grow bg-customGreen">
     <%= yield %>
