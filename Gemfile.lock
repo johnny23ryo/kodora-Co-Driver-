@@ -126,6 +126,9 @@ GEM
     ffi (1.17.0-x86-linux-gnu)
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
+    geocoder (1.8.3)
+      base64 (>= 0.1.0)
+      csv (>= 3.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     hashie (5.0.0)
@@ -336,6 +339,7 @@ DEPENDENCIES
   cssbundling-rails
   debug
   dotenv-rails
+  geocoder
   httparty
   jbuilder
   jsbundling-rails
