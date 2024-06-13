@@ -53,6 +53,7 @@ gem 'rails-i18n'
 # 投稿の住所情報を緯度と経度に変換し、Google Maps に渡す(住所から緯度と経度を取得する)
 gem "geocoder"
 
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
