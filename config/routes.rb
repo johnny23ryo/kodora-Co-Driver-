@@ -6,8 +6,11 @@ Rails.application.routes.draw do
   post 'login', to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'
 
-  resources :posts
-  get 'post', to: 'posts#index'
+  resources :posts do
+    collection do
+      get 'pickup'
+    end
+  end
 
   resources :routes, only: [:new, :create]
 
