@@ -52,6 +52,37 @@
         }
     </script>
 
+
+    <!-- ピックアップイベント -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <h1 class = "font-bold text-center text-red-500 my-6 text-4xl">🔥🔥PICKUP!!🔥🔥</h1>
+        <div class="row">
+          <% if @pick_up_posts.present? %>
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-8">
+              <% @pick_up_posts.each do |post| %>
+                <div class="bg-white px-4 py-4 mb-4 text-center">
+                  <% if post.post_image.present? %>
+                    <img src="<%= post.post_image.url %>" alt="画像" class="mt-4 w-full h-64 object-cover">
+                  <% else %>
+                    <img src="<%= asset_path('default.png') %>" alt="デフォルト画像" class="my-4 w-full h-64 object-cover">
+                  <% end %>
+                  <% if post.user %>
+                    <p class="text-2xl"><strong>投稿者:</strong> <br> <%= post.user.name %></p>
+                  <% else %>
+                    <p class="text-2xl"><strong>投稿者:</strong> <br>未ログインユーザー</p>
+                  <% end %>
+                  <p class="text-2xl mb-4"><strong>イベント名:</strong> <br> <%= post.title %></p>
+                  <%= link_to '詳細を見る', post_path(post), class: "text-blue-500 hover:text-blue-700 text-xl font-bold mt-4" %>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <!-- 投稿一覧-->
     <h1 class="font-bold text-center text-white my-6 text-4xl">投稿一覧</h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">

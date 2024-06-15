@@ -17,8 +17,8 @@ development:
   <<: *default
   adapter: mysql2
   username: root
-  password:
-  host: localhost
+  password: password
+  host: db
   database: ajax_app_development
 
 
@@ -29,8 +29,8 @@ test:
   <<: *default
   adapter: mysql2
   username: root
-  password:
-  host: localhost
+  password: password
+  host: db
   database: ajax_app_test
 
 
