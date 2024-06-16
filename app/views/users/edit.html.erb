@@ -32,7 +32,7 @@
         <%= f.password_field :password_confirmation, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
       </div>
       <div class="text-center mt-6">
-        <%= f.submit "更新", class: "bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-700 cursor-pointer" %>
+        <%= f.submit "更新", class: "bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-700 cursor-pointer", data: { turbo: false } %>
       </div>
     <% end %>
   </div>
