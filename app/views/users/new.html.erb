@@ -29,11 +29,11 @@
           <%= f.password_field :password_confirmation, class: "form-input mt-1 block w-full text-xl text-black bg-gray-200 rounded-md" %>
         </div>
         <div class="text-center mt-6">
-          <%= f.submit "登録", class: "text-white font-bold text-2xl px-6 font-bold" %>
+          <%= f.submit "登録", class: "text-white font-bold text-2xl px-6 font-bold", data: { turbo: false } %>
         </div>
       <% end %>
       <div class="text-center">
-        <%= link_to 'ログインページへ', login_path, class: "text-2xl text-white hover:text-gray-400 font-bold" %>
+        <%= link_to 'ログインページへ', login_path, class: "text-2xl text-white hover:text-gray-400 font-bold", data: { turbo: false } %>
       </div>
     </div>
   </div>

@@ -10,7 +10,7 @@
   <div class="container mx-auto px-4">
     <h2 class="text-3xl font-bold text-center mb-8 text-white">アプリの機能</h2>
     <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <%= link_to spot_path, class: "bg-white shadow-lg rounded-lg p-6 text-center transform transition duration-300 hover:shadow-xl hover:scale-105" do %>
+      <%= link_to spot_path, class: "bg-white shadow-lg rounded-lg p-6 text-center transform transition duration-300 hover:shadow-xl hover:scale-105", data: { turbo: false } do %>
         <h3 class="text-2xl font-bold mb-4">おすすめスポット検索</h3>
         <p>AIがおすすめの観光スポット、レストラン、休憩所を提案し、提案した場所までと現在地までのルートを表示します</p>
       <% end %>
@@ -20,12 +20,12 @@
         <p>最適なルートを提案し、移動時間を短縮します。</p>
       <% end %>
 
-      <%= link_to posts_path, class: "bg-white shadow-lg rounded-lg p-6 text-center transform transition duration-300 hover:shadow-xl hover:scale-105" do %>
+      <%= link_to posts_path, class: "bg-white shadow-lg rounded-lg p-6 text-center transform transition duration-300 hover:shadow-xl hover:scale-105", data: { turbo: false } do %>
         <h3 class="text-2xl font-bold mb-4">イベント一覧</h3>
         <p>周辺で開催されているイベント情報を提供し、旅行の計画を充実させます。</p>
       <% end %>
 
-      <%= link_to '#', class: "bg-white shadow-lg rounded-lg p-6 text-center transform transition duration-300 hover:shadow-xl hover:scale-105" do %>
+      <%= link_to '#', class: "bg-white shadow-lg rounded-lg p-6 text-center transform transition duration-300 hover:shadow-xl hover:scale-105", data: { turbo: false } do %>
         <h3 class="text-2xl font-bold mb-4">保存したルート一覧</h3>
         <p>お気に入りのルートを保存し、いつでも簡単にアクセスできます。</p>
       <% end %>

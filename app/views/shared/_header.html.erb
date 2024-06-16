@@ -3,12 +3,12 @@
     <div class=" mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
         <div class="flex items-center">
-          <%= link_to 'コドラ', root_path, class: "text-white font-bold text-xl" %>
+          <%= link_to 'コドラ', root_path, class: "text-white font-bold text-xl", data: { turbo: false } %>
         </div>
         <div class="hidden sm:flex sm:items-center sm:space-x-4">
-          <%= link_to '新規投稿作成', new_post_path, class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold' %>
-          <%= link_to 'イベント一覧', posts_path, class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold' %>
-          <%= link_to 'マイページ', user_path(current_user), class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold' %>
+          <%= link_to '新規投稿作成', new_post_path, class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold', data: { turbo: false } %>
+          <%= link_to 'イベント一覧', posts_path, class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold', data: { turbo: false } %>
+          <%= link_to 'マイページ', user_path(current_user), class: 'text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold', data: { turbo: false } %>
            <!--イベント一覧のAddUserIdToPostsの投稿者表示を流用-->
           <% if current_user %>
             <p class="text-white hover:bg-opacity-70 hover:text-white px-3 py-2 rounded-md text-sm font-medium font-bold">ログイン中: <%= current_user.name %></p>
@@ -31,8 +31,11 @@
     </div>
     <div class="sm:hidden hidden" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1">
-        <%= link_to 'イベント一覧', '#', class: 'text-white hover:bg-opacity-70 hover:text-white block px-3 py-2 rounded-md text-base font-medium' %>
-        <%= link_to 'マイページ', '#', class: 'text-white hover:bg-opacity-70 hover:text-white block px-3 py-2 rounded-md text-base font-medium' %>
+        <%= link_to 'イベント一覧', posts_path, class: 'text-white hover:bg-opacity-70 hover:text-white block px-3 py-2 rounded-md text-base font-medium', data: { turbo: false } %>
+        <% if current_user %>
+          <%= link_to 'マイページ', user_path(current_user), class: 'text-white hover:bg-opacity-70 hover:text-white block px-3 py-2 rounded-md text-base font-medium', data: { turbo: false } %>
+          <%= link_to '新規投稿作成', new_post_path, class: 'text-white hover:bg-opacity-70 hover:text-white block px-3 py-2 rounded-md text-base font-medium', data: { turbo: false } %>
+        <% end %>
       </div>
     </div>
   </nav>
