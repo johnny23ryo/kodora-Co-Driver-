@@ -3,7 +3,7 @@ class PostsController < ApplicationController
     @posts = Post.page(params[:page]).per(12)
     # ピックアップ機能 Postモデルからランダムに3件の投稿を取得
     @pick_up_posts = Post.order(Arel.sql('RANDOM()')).limit(3)
-    @pick_up_posts = Post.order(Arel.sql('RAND()')).limit(3)
+    #@pick_up_posts = Post.order(Arel.sql('RAND()')).limit(3)
   end
 
   def new
