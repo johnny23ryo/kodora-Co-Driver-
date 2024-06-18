@@ -1,8 +1,8 @@
 <div class="min-h-screen flex items-center justify-center bg-customGreen">
   <div class="w-full max-w-3xl p-8 rounded-lg shadow-lg">
-    <h1 class="font-bold text-center text-white mb-6 text-4xl">新規投稿</h1>
+    <h1 class="font-bold text-center text-customWhite mb-6 text-4xl">新規投稿</h1>
     <% if @post.errors.any? %>
-      <div class="bg-red-500 text-white p-4 mb-6 rounded">
+      <div class="bg-red-500 text-customWhite p-4 mb-6 rounded">
         <ul>
           <% @post.errors.full_messages.each do |message| %>
             <li><%= message %></li>
@@ -10,18 +10,18 @@
         </ul>
       </div>
     <% end %>
-    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+    <div class="p-6">
       <%= form_with model: @post, local: true, html: { multipart: true }, class: "space-y-6" do |f| %>
         <div>
-          <%= f.label :post_image, "イベントイメージ画像( png, jpg, jpeg, gif 対応 )", class: "block text-2xl font-bold mb-2 text-white" , accept: 'image/png,image/gif,image/jpeg,image/jpg' %>
+          <%= f.label :post_image, "イベントイメージ画像( png, jpg, jpeg, gif 対応 )", class: "block text-2xl font-bold mb-2 text-customWhite" , accept: 'image/png,image/gif,image/jpeg,image/jpg' %>
           <%= f.file_field :post_image, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
         </div>
         <div>
-          <%= f.label :title, "イベントタイトル( 必須 )", class: "block text-2xl font-bold mb-2 text-white" %>
+          <%= f.label :title, "イベントタイトル( 必須 )", class: "block text-2xl font-bold mb-2 text-customWhite" %>
           <%= f.text_field :title, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
         </div>
         <div>
-          <%= f.label :address, "場所", class: "block text-2xl font-bold mb-2 text-white" %>
+          <%= f.label :address, "場所", class: "block text-2xl font-bold mb-2 text-customWhite" %>
           <%= f.select :address, options_for_select([
               '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
               '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県',
@@ -33,19 +33,19 @@
             ]), { prompt: '選択してください' }, class: 'form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md' %>
         </div>
         <div>
-          <%= f.label :start_date, "イベント開始日", class: "block text-2xl font-bold mb-2 text-white" %>
+          <%= f.label :start_date, "イベント開始日", class: "block text-2xl font-bold mb-2 text-customWhite" %>
           <%= f.date_field :start_date, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
         </div>
         <div>
-          <%= f.label :end_date, "イベント終了日", class: "block text-2xl font-bold mb-2 text-white" %>
+          <%= f.label :end_date, "イベント終了日", class: "block text-2xl font-bold mb-2 text-customWhite" %>
           <%= f.date_field :end_date, class: "form-input mt-1 block w-full text-2xl text-black bg-gray-100 rounded-md" %>
         </div>
         <div class="text-center mt-6">
-          <%= f.submit "投稿", class: "text-white font-bold text-2xl", data: { turbo: false } %>
+          <%= f.submit "投稿", class: "text-customWhite font-bold text-2xl", data: { turbo: false } %>
         </div>
       <% end %>
       <div class="text-center mt-4">
-        <%= link_to '投稿一覧に戻る', posts_path, class: "text-2xl text-white font-bold", data: { turbo: false } %>
+        <%= link_to '投稿一覧に戻る', posts_path, class: "text-2xl text-customWhite font-bold", data: { turbo: false } %>
       </div>
     </div>
   </div>
