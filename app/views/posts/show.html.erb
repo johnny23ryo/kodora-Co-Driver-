@@ -1,37 +1,38 @@
 <div class="bg-customGreen text-white max-w-7xl mx-auto">
   <div class="mx-auto p-8">
     <h1 class="text-4xl font-bold mb-8">イベント詳細画面</h1>
-    <div class=" p-6 rounded-lg">
-      <div class="p-4">
+    <div class="p-6 rounded-lg flex flex-col md:flex-row">
+      <div class="md:w-1/2 p-4">
         <% if @post.image.present? %>
-          <img src="<%= post.post_image.url %>" alt="画像" class="w-full h-auto rounded-lg object-cover">
+          <img src="<%= @post.post_image.url %>" alt="画像" class="w-full h-auto rounded-lg object-cover">
         <% else %>
           <div class="w-full h-48 bg-gray-600 flex items-center justify-center rounded-lg">
             <span class="text-white text-lg">画像なし</span>
           </div>
         <% end %>
       </div>
-      <div class="p-4">
-        <div class="mb-4">
-          <h2 class="text-2xl font-bold">イベント名</h2>
-          <p class="text-xl"><%= @post.title %></p>
+      <div class="md:w-1/2 p-4 flex flex-col justify-between">
+        <div>
+          <div class="mb-4">
+            <h2 class="text-2xl font-bold">イベント名</h2>
+            <p class="text-xl"><%= @post.title %></p>
+          </div>
+          <div class="mb-4">
+            <h2 class="text-2xl font-bold">場所</h2>
+            <p class="text-xl"><%= @post.address %></p>
+          </div>
+          <div class="mb-4">
+            <h2 class="text-2xl font-bold">期間</h2>
+            <p class="text-xl"><%= @post.start_date %> ~ <%= @post.end_date %></p>
+          </div>
         </div>
-        <div class="mb-4">
-          <h2 class="text-2xl font-bold">場所</h2>
-          <p class="text-xl"><%= @post.address %></p>
-        </div>
-        <div class="mb-4">
-          <h2 class="text-2xl font-bold">期間</h2>
-          <p class="text-xl"><%= @post.start_date %> ~ <%= @post.end_date %></p>
-        </div>
+        <% if current_user == @post.user %>
+          <div class="mt-4 flex space-x-4">
+            <%= link_to '編集', edit_post_path(@post), class: 'bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded', data: { turbo: false } %>
+            <%= link_to '削除', post_path(@post), data: { turbo_method: :delete, turbo_confirm: '本当に削除しますか？' }, class: 'bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded' %>
+          </div>
+        <% end %>
       </div>
-
-      <% if current_user == @post.user %>
-        <div class=" mt-4">
-          <%= link_to '編集', edit_post_path(@post), class: 'bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded', data: { turbo: false } %>
-          <%= link_to '削除', post_path(@post), data: { turbo_method: :delete, turbo_confirm: '本当に削除しますか？' }, class: 'bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded' %>
-        </div>
-      <% end %>
     </div>
     <div class="mt-8 bg-gray-600 p-6 rounded-lg">
       <p>現在地からその場所までのルートを表示する(未実装)</p>
