@@ -9,6 +9,17 @@
   <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   <%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
   <%= javascript_include_tag "google_maps", type: "module" %>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLRYXY6HYT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HLRYXY6HYT');
+  </script>
+
   <style>
     #map {
       height: 400px;
