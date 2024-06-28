@@ -56,6 +56,9 @@ gem "geocoder"
 # グーグルログインの開発環境と本番環境用でそれぞれ異なるurlにリダイレクトさせる
 gem 'config'
 
+# AWS S3 導入
+gem 'fog-aws'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
