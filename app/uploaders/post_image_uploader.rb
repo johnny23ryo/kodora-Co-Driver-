@@ -9,7 +9,12 @@ class PostImageUploader < CarrierWave::Uploader::Base
 
 
   # 画像の保存場所を指定
-  storage :file
+  # AWS S3に本番環境で保存させて、ローカルではfileで保存
+  if Rails.env.production?
+    storage :fog # 本番環境ではfogを使用
+  else
+    storage :file # 開発環境とテスト環境ではfileを使用
+  end
 
   # アップロードされたファイルの保存先ディレクトリ
   def store_dir
