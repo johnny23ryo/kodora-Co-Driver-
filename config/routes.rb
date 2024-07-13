@@ -34,6 +34,10 @@ Rails.application.routes.draw do
   get 'spot/tourist_spot', to: 'spots#tourist_spot'
   post 'spot/tourist_spot', to: 'spots#tourist_spot', as: 'tourist_spot'
 
+  # 道の駅スタンプラリー
+  resources :michi_no_ekis, only: [:index]
+  resources :stamps, only: [:create, :index]
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.

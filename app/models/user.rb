@@ -14,4 +14,7 @@ class User < ApplicationRecord
 
   # マイページ画像
   mount_uploader :avatar, AvatarUploader
+
+  # 道の駅スタンプラリー
+  has_many :stamps
 end

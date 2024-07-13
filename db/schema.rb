@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_06_22_124714) do
+ActiveRecord::Schema[7.1].define(version: 2024_07_13_154403) do
   create_table "authentications", charset: "utf8mb3", force: :cascade do |t|
     t.integer "user_id", null: false
     t.string "provider", null: false
@@ -34,6 +34,15 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_22_124714) do
     t.integer "user_id"
   end
 
+  create_table "stamps", charset: "utf8mb3", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.integer "michi_no_eki_id", null: false
+    t.string "image_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_stamps_on_user_id"
+  end
+
   create_table "users", charset: "utf8mb3", force: :cascade do |t|
     t.string "email", null: false
     t.string "crypted_password"
@@ -45,4 +54,5 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_22_124714) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
+  add_foreign_key "stamps", "users"
 end
