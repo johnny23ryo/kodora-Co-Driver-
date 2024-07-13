@@ -13,6 +13,9 @@ module.exports = {
         'customWhite': 'rgb(233,226,241)',
         'customRed': '#D0104C',
       },
+      inset: {
+        '1/4': '25%',
+      },
     },
   },
 }

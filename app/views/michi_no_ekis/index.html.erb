@@ -1,0 +1,237 @@
+<h1 class="text-center text-xl font-bold my-8">道の駅リスト</h1>
+<div id="map" class="h-96 w-full"></div>
+<div class="flex justify-center items-center text-xl font-bold">
+  <h2 class="text-center my-8">取得したスタンプ</h2>
+  <div id="stamp-header" class="flex ml-8">
+    <div id="stamp-count" class="mr-4">0</div>
+    <p>スタンプ</p>
+  </div>
+</div>
+<div id="stamps-container" class="flex items-center flex-wrap"></div>
+
+<script>
+function initializeStampApp() {
+  // Googleマップオブジェクトを格納するための変数mapを宣言します
+  let map;
+  // 取得したスタンプの数をカウントするための変数stampCountを宣言し、初期値を0に設定
+  let stampCount = 0;
+  // ユーザーの現在地を示すマーカーオブジェクトを格納するための変数userMarkerを宣言
+  let userMarker;
+  // 現在地のマーカーが表示されているかどうかを管理するフラグ
+  let isUserMarkerVisible = true;
+  // 訪れた道の駅のIDを管理するためのセットvisitedStationsを宣言。セットは重複する要素を持たないコレクション
+  let visitedStations = new Set();
+
+  // Googleマップを初期化する関数initMapを定義
+  function initMap() {
+    // HTMLのmap要素をGoogleマップに置き換える
+    map = new google.maps.Map(document.getElementById("map"), {
+      // マップのズームレベルを設定
+      zoom: 8,
+      // マップの中心を設定（愛知）
+      center: new google.maps.LatLng(35.1815, 136.9066)
+    });
+
+    // /michinoeki.geojsonからGeoJSONデータを非同期で取得
+    fetch('/michinoeki.geojson')
+      // 取得したレスポンスをJSON形式に変換
+      .then(response => response.json())
+      // 変換されたJSONデータを受け取って処理を行う
+      .then(data => {
+        // GeoJSONデータのfeatures配列をループ処理
+        data.features.forEach(feature => {
+          // 各道の駅の緯度経度をcoordsに格納
+          const coords = feature.geometry.coordinates;
+          // 緯度経度をGoogleマップ用のLatLngオブジェクトに変換
+          const latLng = new google.maps.LatLng(coords[1], coords[0]);
+
+          // 新しいマーカーを作成し、道の駅の位置に設置
+          new google.maps.Marker({
+            // マーカーの位置を設定する
+            position: latLng,
+            // マーカーを表示するマップを指定する
+            map: map,
+            // マーカーに表示する道の駅の名前を設定する
+            title: feature.properties.name
+          });
+        });
+
+        // /stampsからスタンプデータを非同期で取得
+        fetch('/stamps')
+          // レスポンスをJSON形式に変換する
+          .then(response => response.json())
+          // 変換されたスタンプデータを受け取って処理を行う
+          .then(stamps => {
+            // スタンプデータをループ処理
+            stamps.forEach(stamp => {
+              // 訪問済みの道の駅のIDをセットに追加する
+              visitedStations.add(stamp.id);
+              // スタンプを表示する
+              displayStamp(stamp.id, stamp.image_url);
+            });
+
+            // 位置情報の監視を開始
+            startStampCheck(data.features);
+          })
+          // スタンプデータの取得に失敗した場合にエラーメッセージを表示する
+          .catch(error => console.error('スタンプデータの取得に失敗しました', error));
+      })
+      // GeoJSONファイルの取得に失敗した場合にエラーメッセージを表示する
+      .catch(error => console.error('GeoJSONファイルによる道の駅情報を取得できませんでした', error));
+  }
+
+  // 位置情報を監視し、スタンプを取得する関数startStampCheckを定義
+  function startStampCheck(features) {
+    // ブラウザが位置情報APIに対応しているか確認する
+    if (navigator.geolocation) {
+      // ユーザーの位置を継続的に監視
+      navigator.geolocation.watchPosition((position) => {
+        // ユーザーの現在地をGoogleマップの座標形式に変換する
+        const userLatLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+        // 現在地のマーカーを更新する
+        updateUserMarker(userLatLng);
+
+        // 各道の駅の情報に対して繰り返し処理を行う
+        features.forEach(feature => {
+          // 道の駅の座標を取得する
+          const coords = feature.geometry.coordinates;
+          // 道の駅の位置をGoogleマップの座標形式に変換する
+          const stationLatLng = new google.maps.LatLng(coords[1], coords[0]);
+
+          // 現在地と道の駅の距離が1000メートル以内かどうかを確認する(テストで30000メートル)
+          if (google.maps.geometry.spherical.computeDistanceBetween(userLatLng, stationLatLng) <= 30000) {
+            // 道の駅が訪問済みでないかどうかを確認する
+            if (!visitedStations.has(feature.properties.id)) {
+              // サーバーに訪問を通知する
+              notifyArrivalToServer(feature.properties.name, feature.properties.id);
+              // 訪れた道の駅のIDをvisitedStationsセットに追加
+              visitedStations.add(feature.properties.id);
+            }
+          }
+        });
+      }, (error) => {
+        // 位置情報の取得に失敗した場合にエラーメッセージを表示する
+        console.error('位置情報の取得に失敗しました', error);
+      });
+    } else {
+      // ブラウザが位置情報APIに対応していない場合にエラーメッセージを表示する
+      console.error('ブラウザが位置情報APIに対応していません');
+    }
+  }
+
+  // ユーザーの位置を示すマーカーを更新する関数
+  function updateUserMarker(userLatLng) {
+    // まだマーカーが存在しない場合
+    if (!userMarker) {
+      // 新しいマーカーを作成
+      userMarker = new google.maps.Marker({
+        // マーカーの位置をユーザーの現在地に設定
+        position: userLatLng,
+        // マーカーを表示するマップを指定する
+        map: map,
+        // マーカーに表示するタイトルを設定する
+        title: "現在地",
+        // マーカーのアイコンをカスタマイズ
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          scale: 10,
+          fillColor: "#4285F4",
+          fillOpacity: 1,
+          strokeWeight: 1
+        }
+      });
+
+      // この関数は500ミリ秒（0.5秒）ごとに指定されたコードを繰り返し実行
+      setInterval(() => {
+        // isUserMarkerVisible の値に基づいて userMarker（ユーザーの位置を示すマーカー）を表示または非表示
+        userMarker.setVisible(isUserMarkerVisible);
+        // isUserMarkerVisible フラグを true から false、またはその逆に反転させます。これにより、次の反復時にマーカーの表示状態が変更されます。
+        isUserMarkerVisible = !isUserMarkerVisible;
+      }, 500);
+    } else {
+      // マーカーの位置を更新する
+      userMarker.setPosition(userLatLng);
+
+      // マーカーを表示する
+      if (!isUserMarkerVisible) {
+        userMarker.setVisible(true);
+        // フラグを設定する
+        isUserMarkerVisible = true;
+      }
+    }
+  }
+
+  // 道の駅に到着したことをサーバーに通知する関数
+  function notifyArrivalToServer(name, id) {
+    fetch('/stamps', {
+      method: 'POST',
+      // /stampsエンドポイントにPOSTリクエストを送信
+      headers: {
+        // リクエストヘッダーを設定
+        'Content-Type': 'application/json',
+        // リクエストの内容がJSON形式であることを指定する
+        'X-CSRF-Token': document.querySelector('meta[name="csrf-token"]').content
+        // CSRFトークンをヘッダーに追加する
+      },
+      body: JSON.stringify({ michi_no_eki_id: id })
+      // リクエストの本文に道の駅のIDをJSON形式で設定する
+    })
+    // レスポンスをJSON形式に変換する
+    .then(response => response.json())
+    // 変換されたデータを処理
+    .then(data => {
+      // スタンプの追加が成功した場合の処理
+      if (data.success) {
+        // スタンプを表示する
+        displayStamp(id, data.image_url);
+        // スタンプ追加の成功メッセージを表示
+        alert(`${name} を訪れた証としてスタンプが追加されました！`);
+      } else {
+        // スタンプの追加に失敗した場合にエラーメッセージを表示する
+        console.error('スタンプの追加に失敗しました');
+      }
+    })
+    // リクエストに失敗した場合にエラーメッセージを表示する
+    .catch(error => console.error('リクエストに失敗しました', error));
+  }
+
+  // スタンプを表示する関数
+  function displayStamp(id, imageUrl) {
+    // スタンプを表示するためのコンテナ要素を取得する
+    const stampContainer = document.getElementById('stamps-container');
+    // スタンプの数を表示する要素を取得する
+    const stampCountElement = document.getElementById('stamp-count');
+
+    // スタンプがまだ表示されていない場合の処理
+    if (!document.getElementById(`stamp-${id}`)) {
+      // スタンプの数を1増やす
+      stampCount += 1;
+      // スタンプの数を更新する
+      stampCountElement.innerText = stampCount;
+
+      // 新しい画像要素を作成する
+      const newStampImage = document.createElement('img');
+      // 画像のURLを設定する
+      newStampImage.src = imageUrl;
+      // 画像にCSSクラスを追加
+      newStampImage.classList.add('w-12', 'h-12', 'm-2');
+      // 画像のIDを設定する
+      newStampImage.id = `stamp-${id}`;
+
+      // 画像をコンテナに追加する
+      stampContainer.appendChild(newStampImage);
+    }
+  }
+
+  // initMap関数をグローバルスコープに公開します。これにより、GoogleマップAPIのコールバックで呼び出すことができます
+  window.initMap = initMap;
+}
+
+// Turbolinksのロードイベントをリッスンする
+document.addEventListener("turbolinks:load", initializeStampApp);
+
+// DOMContentLoadedイベントをリッスンする
+document.addEventListener("DOMContentLoaded", initializeStampApp);
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=<%= ENV["GOOGLE_MAPS_API_KEY"] %>&callback=initMap&libraries=geometry" async defer></script>

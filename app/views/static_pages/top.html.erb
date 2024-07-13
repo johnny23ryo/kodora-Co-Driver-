@@ -25,11 +25,11 @@
         <p>周辺で開催されているイベント情報を提供し、旅行の計画を充実させます。</p>
       <% end %>
 
-      <%= link_to '#', class: "bg-customGreen1 text-customWhite rounded-2xl p-6 text-center transform transition duration-300 hover:scale-105", data: { turbo: false } do %>
-        <h3 class="text-2xl font-bold mb-4">保存したルート一覧(未実装)</h3>
-        <p>お気に入りのルートを保存し、いつでも簡単にアクセスできます。</p>
+      <!-- 道の駅スタンプラリー -->
+      <%= link_to michi_no_ekis_path, class: "bg-customGreen1 text-customWhite rounded-2xl p-6 text-center transform transition duration-300 hover:scale-105", data: { turbo: false } do %>
+        <h3 class="text-2xl font-bold mb-4">道の駅スタンプラリー</h3>
+        <p>ユーザーが道の駅を訪問するとスタンプがもらえます</p>
       <% end %>
     </div>
   </div>
 </div>
-

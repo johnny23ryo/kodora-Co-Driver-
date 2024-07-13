@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.1146262082029, 35.24222832255738]
+      },
+      "properties": {
+        "name": "瀬戸しなの",
+        "id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.21690541859257, 34.91429298257366]
+      },
+      "properties": {
+        "name": "藤川宿",
+        "id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.06074766092854, 34.93079619656549]
+      },
+      "properties": {
+        "name": "デンパーク安城",
+        "id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.6945470846233, 35.1443115865108]
+      },
+      "properties": {
+        "name": "立田ふれあいの里",
+        "id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.08183957098012, 34.87646524935898]
+      },
+      "properties": {
+        "name": "にしお岡ノ山",
+        "id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.13861687301497, 34.84804881693558]
+      },
+      "properties": {
+        "name": "筆柿の里・幸田",
+        "id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.0197051162729, 34.58329406747265]
+      },
+      "properties": {
+        "name": "伊良湖クリスタルポルト",
+        "id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.18946349300307, 34.6073757673344]
+      },
+      "properties": {
+        "name": "あかばねロコステーション",
+        "id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.27151623377748, 34.66147372696275]
+      },
+      "properties": {
+        "name": "田原めっくんはうす",
+        "id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.49433818856025, 35.21363541221624]
+      },
+      "properties": {
+        "name": "どんぐりの里いなぶ",
+        "id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.41482104615065, 34.69605875876479]
+      },
+      "properties": {
+        "name": "とよはし",
+        "id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.53267548081263, 34.91707610346223]
+      },
+      "properties": {
+        "name": "もっくる新城",
+        "id": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.21690541859257, 34.91429298257366]
+      },
+      "properties": {
+        "name": "鳳来三河三石",
+        "id": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.42084636190503, 34.963687802414874]
+      },
+      "properties": {
+        "name": "つくで手作り村",
+        "id": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.5340693799892, 35.17325752441085]
+      },
+      "properties": {
+        "name": "アグリステーションなぐら",
+        "id": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.60492558255422, 35.20010140477527]
+      },
+      "properties": {
+        "name": "つぐ高原グリーンパーク",
+        "id": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.68265198242952, 35.179160293633124]
+      },
+      "properties": {
+        "name": "豊根グリーンポート宮嶋",
+        "id": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.54902972573723, 35.06404505121008]
+      },
+      "properties": {
+        "name": "したら",
+        "id": 18
+      }
+    }
+  ]
+}
