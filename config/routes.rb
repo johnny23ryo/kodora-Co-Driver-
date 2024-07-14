@@ -2,6 +2,11 @@ Rails.application.routes.draw do
   # トップページ
   root "static_pages#top"
 
+  # 利用規約、プライバシーポリシー
+  get 'terms_of_service', to: 'static_pages#terms_of_service'
+  get 'privacy_policy', to: 'static_pages#privacy_policy'
+
+
   # マイページ、ユーザー登録
   resources :users, only: [:new, :create, :show, :edit, :update]
 
