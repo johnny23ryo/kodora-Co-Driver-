@@ -1,4 +1,4 @@
-<div class="min-h-screen flex items-center justify-center bg-customGreen p-8">
+<div class="min-h-screen flex items-center justify-center p-8">
   <div class="w-full max-w-7xl">
 
     <!-- グーグルマップ表示 -->
@@ -37,7 +37,7 @@
                             </div>
                             <div class="w-1/2 p-4 text-center">
                               <p class="text-xl mb-4"><strong>イベント名:</strong> <br>
-                                <%= link_to post.title, post_path(post), class: 'text-orange-500 underline font-bold' %>
+                                <%= link_to post.title, post_path(post), class: 'text-blue-500 underline font-bold block hover:scale-105 duration-300 cursor-pointer' %>
                               </p>
                               <p class="text-gray-700 my-6 font-bold text-base md:text-xl"><%= j post.address %></p>
                             </div>
@@ -57,7 +57,7 @@
     <!-- ピックアップイベント -->
     <div class="row mb-4">
       <div class="col-12">
-        <h1 class = "font-bold text-center text-customRed my-6 text-5xl">🔥PICKUP!!🔥</h1>
+        <h1 class = "font-bold text-center text-customRed my-6 text-5xl">PICKUP!!</h1>
         <div class="row">
           <% if @pick_up_posts.present? %>
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-8">
@@ -74,7 +74,7 @@
                     <p class="text-2xl"><strong>投稿者:</strong> <br>未ログインユーザー</p>
                   <% end %>
                   <p class="text-2xl mb-4"><strong>イベント名:</strong> <br>
-                    <%= link_to post.title, post_path(post), class: 'text-orange-500 underline' %>
+                    <%= link_to post.title, post_path(post), class: 'text-blue-500 underline block hover:scale-105 duration-300 cursor-pointer' %>
                   </p>
                 </div>
               <% end %>
@@ -85,7 +85,7 @@
     </div>
 
     <!-- 投稿一覧-->
-    <h1 class="font-bold text-center text-customWhite my-6 text-4xl">投稿一覧</h1>
+    <h1 class="font-bold text-center my-6 text-4xl">投稿一覧</h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 text-center">
       <% @posts.each do |post| %>
@@ -101,7 +101,7 @@
             <p class="text-2xl"><strong>投稿者:</strong> <br>未ログインユーザー</p>
           <% end %>
           <p class="text-2xl mb-4"><strong>イベント名:</strong> <br>
-            <%= link_to post.title, post_path(post), class: 'text-orange-500 underline' %>
+            <%= link_to post.title, post_path(post), class: 'text-blue-500 underline block hover:scale-105 duration-300 cursor-pointer' %>
           </p>
         </div>
       <% end %>

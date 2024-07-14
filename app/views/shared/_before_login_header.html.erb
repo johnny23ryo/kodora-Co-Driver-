@@ -1,17 +1,17 @@
 <header>
-  <nav class="bg-customGreen opacity-95">
+  <nav class="bg-gray-200">
     <div class=" mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
         <div class="flex items-center">
-          <%= link_to 'コドラ', root_path, class: "text-white font-bold text-xl", data: { turbo: false } %>
+          <%= link_to 'コドラ', root_path, class: "font-bold text-xl", data: { turbo: false } %>
         </div>
         <div class="hidden sm:flex sm:items-center sm:space-x-4">
-          <%= link_to 'イベント一覧', posts_path,class: "text-white font-bold hover:text-gray-300", data: { turbo: false } %>
-          <%= link_to '登録ページへ', new_user_path, class: "text-white font-bold hover:text-gray-300", data: { turbo: false } %>
-          <%= link_to 'ログイン',login_path, class: "text-white font-bold hover:text-gray-300", data: { turbo: false } %>
+          <%= link_to 'イベント一覧', posts_path,class: "font-bold hover:text-gray-300", data: { turbo: false } %>
+          <%= link_to '登録ページへ', new_user_path, class: "font-bold hover:text-gray-300", data: { turbo: false } %>
+          <%= link_to 'ログイン',login_path, class: "font-bold hover:text-gray-300", data: { turbo: false } %>
         </div>
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
-          <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-opacity-70 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu-button">
+          <button type="button" class="inline-flex items-center justify-center p-2 rounded-md hover:bg-opacity-70 focus:outline-none focus:ring-2 focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu-button">
             <span class="sr-only">Open main menu</span>
             <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -24,10 +24,10 @@
       </div>
     </div>
     <div class="sm:hidden hidden" id="mobile-menu">
-      <div class="px-2 pt-2 pb-3 flex flex-col">
-        <%= link_to 'イベント一覧', posts_path, class: 'text-white font-bold hover:text-gray-300 text-xl', data: { turbo: false } %>
-        <%= link_to '登録ページへ', new_user_path, class: "text-white font-bold hover:text-gray-300 text-xl my-4", data: { turbo: false } %>
-        <%= link_to 'ログイン',login_path, class: "text-white font-bold hover:text-gray-300 text-xl", data: { turbo: false } %>
+      <div class="px-8 pt-2 pb-3 flex flex-col">
+        <%= link_to 'イベント一覧', posts_path, class: 'font-bold hover:scale-105 duration-300 cursor-pointer text-xl', data: { turbo: false } %>
+        <%= link_to '登録ページへ', new_user_path, class: "font-bold hover:scale-105 duration-300 cursor-pointer text-xl my-4", data: { turbo: false } %>
+        <%= link_to 'ログイン',login_path, class: "font-bold hover:scale-105 duration-300 cursor-pointer text-xl", data: { turbo: false } %>
       </div>
     </div>
   </nav>
