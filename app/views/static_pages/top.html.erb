@@ -1,35 +1,59 @@
-<div class=" text-white py-12">
+<div class="relative w-full h-auto">
+  <img src="<%= asset_path('sign1.jpg') %>" alt="Top Image" class="w-full h-auto object-cover">
+  <div class="absolute inset-0 flex justify-center flex-col ml-4">
+    <p class="text-white font-bold w-2/5 text-base xs:text-sm sm:text-xl md:text-3xl lg:text-4xl xxl:text-5xl">コドラへようこそ</p>
+    <p class="text-white font-bold mt-4 w-2/5 text-sm xs:text-xs sm:text-lg md:text-2xl lg:text-2xl xxl:text-3xl">コドラは、最適なルート、おすすめスポット、周辺のイベントなどを提案し、快適なドライブをサポートするアプリケーションです</p>
+  </div>
+</div>
+
+<div class="py-12 m-3">
   <div class="container mx-auto px-4 text-center">
-    <h1 class="text-5xl font-bold mb-4">ようこそ  コドラへ！</h1>
-    <p class="text-xl mb-8">コドラは、最適なルート、おすすめスポット、周辺のイベントなどを提案し、快適なドライブをサポートするアプリケーションです</p>
-    <p class = "mt-4 text-2xl text-blue-900 font-bold">※このアプリは位置情報オンにしていただくとより楽しめます</p>
+    <p class="mt-4 text-2xl text-blue-900 font-bold">※このアプリは位置情報オンにしていただくとより楽しめます</p>
   </div>
 </div>
 
 <div class="py-12">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center mb-8 text-customWhite">アプリの機能</h2>
-    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <%= link_to spot_path, class: "bg-customGreen1 text-customWhite rounded-2xl p-6 text-center transform transition duration-300 hover:scale-105", data: { turbo: false } do %>
-        <h3 class="text-2xl font-bold mb-4">おすすめスポット検索</h3>
+    <h2 class="text-3xl font-bold text-center mb-8">アプリの機能</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- おすすめスポット検索 -->
+      <div class="relative group bg-white p-6 text-center transform transition duration-300 hover:scale-105">
+        <h3 class="text-2xl font-bold mb-4 cursor-pointer">おすすめスポット検索</h3>
         <p>AIがおすすめの観光スポット、レストラン、休憩所を提案し、提案した場所までと現在地までのルートを表示します</p>
-      <% end %>
+        <div class="absolute bottom-full left-1/4 w-1/2 bg-white shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 mb-4">
+          <ul class="text-center">
+            <li class="px-4 py-2 hover:bg-gray-200">
+              <%= link_to 'おすすめの観光地', tourist_spot_path %>
+            </li>
+            <li class="px-4 py-2 hover:bg-gray-200">
+              <%= link_to 'おすすめの休憩所', rest_areas_path %>
+            </li>
+            <li class="px-4 py-2 hover:bg-gray-200">
+              <%= link_to 'おすすめの食事処', restaurants_path %>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-      <%= link_to new_route_path, class: "bg-customGreen1 text-white rounded-2xl p-6 text-center transform transition duration-300 hover:scale-105", data: { turbo: false } do %>
+      <!-- ルート最適化 -->
+      <%= link_to new_route_path, class: "bg-white p-6 text-center transform transition duration-300 hover:scale-105", data: { turbo: false } do %>
         <h3 class="text-2xl font-bold mb-4">ルート最適化</h3>
-        <p>最適なルートを提案し、移動時間を短縮します。</p>
-      <% end %>
-
-      <%= link_to posts_path, class: "bg-customGreen1 text-customWhite rounded-2xl p-6 text-center transform transition duration-300 hover:scale-105", data: { turbo: false } do %>
-        <h3 class="text-2xl font-bold mb-4">イベント一覧</h3>
-        <p>周辺で開催されているイベント情報を提供し、旅行の計画を充実させます。</p>
+        <p>最適なルートを提案します</p>
       <% end %>
 
       <!-- 道の駅スタンプラリー -->
-      <%= link_to michi_no_ekis_path, class: "bg-customGreen1 text-customWhite rounded-2xl p-6 text-center transform transition duration-300 hover:scale-105", data: { turbo: false } do %>
+      <%= link_to michi_no_ekis_path, class: "bg-white p-6 text-center transform transition duration-300 hover:scale-105", data: { turbo: false } do %>
         <h3 class="text-2xl font-bold mb-4">道の駅スタンプラリー</h3>
         <p>ユーザーが道の駅を訪問するとスタンプがもらえます</p>
       <% end %>
+
+      <!-- イベント一覧 -->
+      <%= link_to posts_path, class: "bg-white p-6 text-center transform transition duration-300 hover:scale-105", data: { turbo: false } do %>
+        <h3 class="text-2xl font-bold mb-4">イベント一覧</h3>
+        <p>各県で開催されているイベント情報を提供します</p>
+      <% end %>
+
     </div>
   </div>
 </div>
