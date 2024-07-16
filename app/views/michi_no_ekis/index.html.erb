@@ -21,6 +21,8 @@ function initializeStampApp() {
   let isUserMarkerVisible = true;
   // 訪れた道の駅のIDを管理するためのセットvisitedStationsを宣言。セットは重複する要素を持たないコレクション
   let visitedStations = new Set();
+  // 情報ウィンドウの変数を追加
+  let infoWindow;
 
   // Googleマップを初期化する関数initMapを定義
   function initMap() {
@@ -31,6 +33,9 @@ function initializeStampApp() {
       // マップの中心を設定（愛知）
       center: new google.maps.LatLng(35.1815, 136.9066)
     });
+
+    // 情報ウィンドウを初期化
+    infoWindow = new google.maps.InfoWindow();
 
     // /michinoeki.geojsonからGeoJSONデータを非同期で取得
     fetch('/michinoeki.geojson')
@@ -46,13 +51,26 @@ function initializeStampApp() {
           const latLng = new google.maps.LatLng(coords[1], coords[0]);
 
           // 新しいマーカーを作成し、道の駅の位置に設置
-          new google.maps.Marker({
+          const marker = new google.maps.Marker({
             // マーカーの位置を設定する
             position: latLng,
             // マーカーを表示するマップを指定する
             map: map,
             // マーカーに表示する道の駅の名前を設定する
             title: feature.properties.name
+          });
+
+          // ピンをクリックした際に情報ウィンドウを表示するイベントリスナーを追加
+          marker.addListener('click', () => {
+            // クリックされたマーカーの情報ウィンドウに内容を設定
+            const contentString = `
+              <div>
+                <a href="${feature.properties.url}" target="_blank" class="underline text-blue-500 hover:text-blue-800">${feature.properties.name}</a>
+              </div>`;
+            // 情報ウィンドウに内容を設定する
+            infoWindow.setContent(contentString);
+            // 情報ウィンドウを表示する
+            infoWindow.open(map, marker);
           });
         });
 

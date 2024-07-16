@@ -24,13 +24,13 @@
         <div class="absolute bottom-full left-1/4 w-1/2 bg-white shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 mb-4">
           <ul class="text-center">
             <li class="px-4 py-2 hover:bg-gray-200">
-              <%= link_to 'おすすめの観光地', tourist_spot_path %>
+              <%= link_to 'おすすめの観光地', tourist_spot_path, data: { turbo: false } %>
             </li>
             <li class="px-4 py-2 hover:bg-gray-200">
-              <%= link_to 'おすすめの休憩所', rest_areas_path %>
+              <%= link_to 'おすすめの休憩所', rest_areas_path, data: { turbo: false } %>
             </li>
             <li class="px-4 py-2 hover:bg-gray-200">
-              <%= link_to 'おすすめの食事処', restaurants_path %>
+              <%= link_to 'おすすめの食事処', restaurants_path, data: { turbo: false } %>
             </li>
           </ul>
         </div>
