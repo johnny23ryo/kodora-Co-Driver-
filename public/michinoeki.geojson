@@ -2568,6 +2568,210 @@
         "id": 215,
         "url": "https://www.michi-no-eki.jp/stations/views/19958"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.81623614490547, 34.89278497251745]
+      },
+      "properties": {
+        "name": "かもがわ円城",
+        "id": 216,
+        "url": "https://www.michi-no-eki.jp/stations/views/19556"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.5719130471897, 35.17541166597563]
+      },
+      "properties": {
+        "name": "がいせん桜 新庄宿",
+        "id": 217,
+        "url": "https://www.michi-no-eki.jp/stations/views/19557"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.33650487311462, 35.180919691764736]
+      },
+      "properties": {
+        "name": "あわくらんど",
+        "id": 218,
+        "url": "https://www.michi-no-eki.jp/stations/views/19558"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.94639973222777, 34.91235803474957]
+      },
+      "properties": {
+        "name": "くめなん",
+        "id": 219,
+        "url": "https://www.michi-no-eki.jp/stations/views/19559"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.92632147803894, 34.520114210520205]
+      },
+      "properties": {
+        "name": "みやま公園",
+        "id": 220,
+        "url": "https://www.michi-no-eki.jp/stations/views/19560"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.16555424535977, 34.65689608642564]
+      },
+      "properties": {
+        "name": "一本松展望園",
+        "id": 221,
+        "url": "https://www.michi-no-eki.jp/stations/views/19561"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.20424986332313, 34.69353745400204]
+      },
+      "properties": {
+        "name": "黒井山グリーンパーク",
+        "id": 222,
+        "url": "https://www.michi-no-eki.jp/stations/views/19562"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.33137659361395, 34.93188440047912]
+      },
+      "properties": {
+        "name": "鯉が窪",
+        "id": 223,
+        "url": "https://www.michi-no-eki.jp/stations/views/19563"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.66797605767186, 35.29495151352534]
+      },
+      "properties": {
+        "name": "蒜山高原",
+        "id": 224,
+        "url": "https://www.michi-no-eki.jp/stations/views/19564"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.62557495359218, 35.27792332133798]
+      },
+      "properties": {
+        "name": "風の家",
+        "id": 225,
+        "url": "https://www.michi-no-eki.jp/stations/views/19565"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.14976824816034, 35.01489710599123]
+      },
+      "properties": {
+        "name": "彩菜茶屋",
+        "id": 226,
+        "url": "https://www.michi-no-eki.jp/stations/views/19566"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.9224408784355, 35.22341256571641]
+      },
+      "properties": {
+        "name": "奥津温泉",
+        "id": 227,
+        "url": "https://www.michi-no-eki.jp/stations/views/19567"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.9226261550593, 35.05704037317989]
+      },
+      "properties": {
+        "name": "久米の里",
+        "id": 228,
+        "url": "https://www.michi-no-eki.jp/stations/views/19568"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.72504328751904, 34.99128078250435]
+      },
+      "properties": {
+        "name": "醍醐の里",
+        "id": 229,
+        "url": "https://www.michi-no-eki.jp/stations/views/19569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.7044333628611, 34.81629896581486]
+      },
+      "properties": {
+        "name": "かよう",
+        "id": 230,
+        "url": "https://michi-no-eki.jp/stations/views/19570"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.49924757060654, 34.47372994297246]
+      },
+      "properties": {
+        "name": "笠岡ベイファーム",
+        "id": 231,
+        "url": "https://www.michi-no-eki.jp/stations/views/19571"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.59109149397156, 34.623854459499064]
+      },
+      "properties": {
+        "name": "山陽道やかげ宿",
+        "id": 232,
+        "url": "https://www.michi-no-eki.jp/stations/views/19957"
+      }
     }
   ]
 }
