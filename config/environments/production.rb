@@ -96,6 +96,6 @@ Rails.application.configure do
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
 
   # 独自ドメイン取得用
-  config.hosts << 'kodora-co-driver.com'
-  config.hosts << 'kodora-co-driver-2.onrender.com'
+  config.hosts << "www.kodora-co-driver.com"
+  config.hosts << "kodora-co-driver-2.onrender.com"
 end
