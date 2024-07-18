@@ -1,14 +1,12 @@
 <div class="max-w-7xl mx-auto">
-  <div class="mx-auto p-8">
+  <div class="mx-auto p-4 md:p-8">
     <h1 class="text-4xl font-bold mb-8">イベント詳細画面</h1>
     <div class="p-6 rounded-lg flex flex-col md:flex-row">
       <div class="md:w-1/2 p-4">
-        <% if @post.image.present? %>
+        <% if @post.post_image.present? %>
           <img src="<%= @post.post_image.url %>" alt="画像" class="w-full h-auto rounded-lg object-cover">
         <% else %>
-          <div class="w-full h-48 bg-gray-600 flex items-center justify-center rounded-lg">
-            <span class="text-white text-lg">画像なし</span>
-          </div>
+          <img src="<%= asset_path('default.png') %>" alt="デフォルト画像" class="w-full h-auto rounded-lg object-cover">
         <% end %>
       </div>
       <div class="md:w-1/2 p-4 flex flex-col justify-between">
