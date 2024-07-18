@@ -31,13 +31,13 @@
               <% end %>
 
               const infowindow = new google.maps.InfoWindow({
-                content: `<div class="flex items-center">
-                            <div class="w-1/2">
+                content: `<div class="flex flex-col md:flex-row items-center">
+                            <div class="w-full md:w-1/2">
                               ${imageTag}
                             </div>
-                            <div class="w-1/2 p-4 text-center">
+                            <div class="w-full md:w-1/2 p-4 text-center">
                               <p class="text-xl mb-4"><strong>イベント名:</strong> <br>
-                                <%= link_to post.title, post_path(post), class: 'text-blue-500 underline font-bold block hover:scale-105 duration-300 cursor-pointer' %>
+                                <%= link_to post.title, post_path(post), class: 'text-blue-500 underline font-bold block hover:scale-105 duration-300 cursor-pointer', data: { turbo: false } %>
                               </p>
                               <p class="text-gray-700 my-6 font-bold text-base md:text-xl"><%= j post.address %></p>
                             </div>
@@ -49,8 +49,8 @@
               });
             })();
           <% end %>
-          }
         }
+      }
     </script>
 
 
@@ -74,7 +74,7 @@
                     <p class="text-2xl"><strong>投稿者:</strong> <br>未ログインユーザー</p>
                   <% end %>
                   <p class="text-2xl mb-4"><strong>イベント名:</strong> <br>
-                    <%= link_to post.title, post_path(post), class: 'text-blue-500 underline block hover:scale-105 duration-300 cursor-pointer' %>
+                    <%= link_to post.title, post_path(post), class: 'text-blue-500 underline block hover:scale-105 duration-300 cursor-pointer', data: { turbo: false } %>
                   </p>
                 </div>
               <% end %>
@@ -101,7 +101,7 @@
             <p class="text-2xl"><strong>投稿者:</strong> <br>未ログインユーザー</p>
           <% end %>
           <p class="text-2xl mb-4"><strong>イベント名:</strong> <br>
-            <%= link_to post.title, post_path(post), class: 'text-blue-500 underline block hover:scale-105 duration-300 cursor-pointer' %>
+            <%= link_to post.title, post_path(post), class: 'text-blue-500 underline block hover:scale-105 duration-300 cursor-pointer', data: { turbo: false } %>
           </p>
         </div>
       <% end %>

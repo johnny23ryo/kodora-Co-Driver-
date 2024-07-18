@@ -6,12 +6,36 @@ ja:
       previous: "&lsaquo; 前"
       next: "次 &rsaquo;"
       truncate: "&hellip;"
+  errors:
+    messages:
+      extension_allowlist_error: "は許可されたファイルタイプではありません"
   activerecord:
-    errors:
-      models:
-        user:
-          attributes:
-            password:
+    models:
+      post: "投稿"
+      user: "ユーザー"
+    attributes:
+      post:
+        title: "タイトル"
+        address: "住所"
+        post_image: "投稿画像"
+      user:
+        email: "メールアドレス"
+        name: "名前"
+        password: "パスワード"
+        password_confirmation: "パスワード確認"
+        avatar: "アバター"
+      errors:
+        messages:
+          blank: "を入力してください"
+        models:
+          user:
+            attributes:
+              password:
+                too_short: "は%{count}文字以上で入力してください"
+              password_confirmation:
+                confirmation: "が一致しません"
+            email:
+              blank: "を入力してください"
+            name:
+              blank: "を入力してください"
               too_short: "は%{count}文字以上で入力してください"
-            password_confirmation:
-              confirmation: "が一致しません"
