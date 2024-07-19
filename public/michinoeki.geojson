@@ -4762,6 +4762,127 @@
         "name": "うれしの まるく",
         "url": "https://www.michi-no-eki.jp/stations/views/21779"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.43376861381947, 33.35509355040206]
+      },
+      "properties": {
+        "name": "生月大橋",
+        "url": "https://www.michi-no-eki.jp/stations/views/19719"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.36768956420198, 32.73955186214004]
+      },
+      "properties": {
+        "name": "ひまわり",
+        "url": "https://www.michi-no-eki.jp/stations/views/19720"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.60276473339513, 33.31774750814425]
+      },
+      "properties": {
+        "name": "昆虫の里たびら",
+        "url": "https://www.michi-no-eki.jp/stations/views/19721"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.9197493352376, 33.03590595086063]
+      },
+      "properties": {
+        "name": "彼杵の荘",
+        "url": "https://www.michi-no-eki.jp/stations/views/19722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.69585660674608, 33.043638498047855]
+      },
+      "properties": {
+        "name": "さいかい",
+        "url": "https://www.michi-no-eki.jp/stations/views/19723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.70340874501935, 32.835925717724315]
+      },
+      "properties": {
+        "name": "夕陽が丘そとめ",
+        "url": "https://www.michi-no-eki.jp/stations/views/19724"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.70133841990406, 33.348724746928184]
+      },
+      "properties": {
+        "name": "松浦海のふるさと館",
+        "url": "https://www.michi-no-eki.jp/stations/views/19725"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.6898514854923, 32.73828694746708]
+      },
+      "properties": {
+        "name": "遣唐使ふるさと館",
+        "url": "https://www.michi-no-eki.jp/stations/views/19726"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.78214494080635, 33.43409605608656]
+      },
+      "properties": {
+        "name": "鷹ら島",
+        "url": "https://www.michi-no-eki.jp/stations/views/19727"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.67187451011074, 33.201452550963786]
+      },
+      "properties": {
+        "name": "させぼっくす99",
+        "url": "https://www.michi-no-eki.jp/stations/views/19857"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.00759131010025, 32.88532644483065]
+      },
+      "properties": {
+        "name": "長崎街道鈴田峠",
+        "url": "https://www.michi-no-eki.jp/stations/views/19858"
+      }
     }
   ]
 }
