@@ -4465,6 +4465,303 @@
         "name": "まきのさんの道の駅・佐川",
         "url": "https://www.michi-no-eki.jp/stations/views/22060"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.78503516567363, 33.35392497343368]
+      },
+      "properties": {
+        "name": "原鶴 バサロ",
+        "url": "https://www.michi-no-eki.jp/stations/views/19695"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.10122642640698, 33.61397123482771]
+      },
+      "properties": {
+        "name": "豊前おこしかけ",
+        "url": "https://www.michi-no-eki.jp/stations/views/19696"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.8258714952868, 33.46509552144062]
+      },
+      "properties": {
+        "name": "小石原",
+        "url": "https://www.michi-no-eki.jp/stations/views/19697"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.15443816752597, 33.5885732358822]
+      },
+      "properties": {
+        "name": "しんよしとみ",
+        "url": "https://www.michi-no-eki.jp/stations/views/19698"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.81834411297442, 33.334224669826696]
+      },
+      "properties": {
+        "name": "うきは",
+        "url": "https://www.michi-no-eki.jp/stations/views/19699"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.53201634847989, 33.07311859256005]
+      },
+      "properties": {
+        "name": "｢おおむた｣花ぷらす館",
+        "url": "https://www.michi-no-eki.jp/stations/views/19700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.61039455401735, 33.187495888663584]
+      },
+      "properties": {
+        "name": "たちばな",
+        "url": "https://www.michi-no-eki.jp/stations/views/19701"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.71324856752514, 33.56394033334089]
+      },
+      "properties": {
+        "name": "うすい",
+        "url": "https://www.michi-no-eki.jp/stations/views/19702"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.86032033134813, 33.549201249968796]
+      },
+      "properties": {
+        "name": "歓遊舎ひこさん",
+        "url": "https://www.michi-no-eki.jp/stations/views/19703"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.5033564368556, 33.84846879412973]
+      },
+      "properties": {
+        "name": "むなかた",
+        "url": "https://www.michi-no-eki.jp/stations/views/19704"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.59386767363878, 33.31956444087638]
+      },
+      "properties": {
+        "name": "くるめ",
+        "url": "https://www.michi-no-eki.jp/stations/views/19705"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.86021640985902, 33.676774256468384]
+      },
+      "properties": {
+        "name": "香春",
+        "url": "https://www.michi-no-eki.jp/stations/views/19706"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.43777718469786, 33.21801960847581]
+      },
+      "properties": {
+        "name": "おおき",
+        "url": "https://www.michi-no-eki.jp/stations/views/19707"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.84591731781904, 33.626039974058436]
+      },
+      "properties": {
+        "name": "おおとう桜街道",
+        "url": "https://www.michi-no-eki.jp/stations/views/19708"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.4840704135302, 33.14743570509534]
+      },
+      "properties": {
+        "name": "みやま",
+        "url": "https://www.michi-no-eki.jp/stations/views/19709"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.76451336383872, 33.64215016476713]
+      },
+      "properties": {
+        "name": "いとだ",
+        "url": "https://www.michi-no-eki.jp/stations/views/19710"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.6247634227179, 33.46677062486058]
+      },
+      "properties": {
+        "name": "筑前みなみの里",
+        "url": "https://www.michi-no-eki.jp/stations/views/19941"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.1455757640748, 33.0749437445846]
+      },
+      "properties": {
+        "name": "鹿島",
+        "url": "https://www.michi-no-eki.jp/stations/views/19711"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.07190482208995, 33.311141415238886]
+      },
+      "properties": {
+        "name": "厳木",
+        "url": "https://www.michi-no-eki.jp/stations/views/19712"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.92865657572293, 33.31364754188877]
+      },
+      "properties": {
+        "name": "伊万里｢伊万里ふるさと村｣",
+        "url": "https://www.michi-no-eki.jp/stations/views/19713"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.87339733525403, 33.528719086167456]
+      },
+      "properties": {
+        "name": "桃山天下市",
+        "url": "https://www.michi-no-eki.jp/stations/views/19714"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.95643718161375, 33.19183281082798]
+      },
+      "properties": {
+        "name": "山内",
+        "url": "https://www.michi-no-eki.jp/stations/views/19715"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.25786291196732, 33.338975483861475]
+      },
+      "properties": {
+        "name": "大和",
+        "url": "https://www.michi-no-eki.jp/stations/views/19716"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.39754188346555, 33.38060508687696]
+      },
+      "properties": {
+        "name": "吉野ヶ里",
+        "url": "https://www.michi-no-eki.jp/stations/views/19717"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.1693444947617, 33.047284232485296]
+      },
+      "properties": {
+        "name": "太良",
+        "url": "https://www.michi-no-eki.jp/stations/views/19718"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.19611068346555, 33.17728848991759]
+      },
+      "properties": {
+        "name": "しろいし",
+        "url": "https://www.michi-no-eki.jp/stations/views/19887"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.99719036420277, 33.10690990765481]
+      },
+      "properties": {
+        "name": "うれしの まるく",
+        "url": "https://www.michi-no-eki.jp/stations/views/21779"
+      }
     }
   ]
 }
