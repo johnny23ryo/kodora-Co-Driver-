@@ -6072,6 +6072,126 @@
         "id": 507,
         "url": "https://www.michi-no-eki.jp/stations/views/19924"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.96997667008584, 26.552120062565955]
+      },
+      "properties": {
+        "name": "許田",
+        "id": 508,
+        "url": "https://www.michi-no-eki.jp/stations/views/19813"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.10218755009927, 26.660782352974508]
+      },
+      "properties": {
+        "name": "おおぎみ　やんばるの森ビジターセンター",
+        "id": 509,
+        "url": "https://www.michi-no-eki.jp/stations/views/19814"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.16810020112058, 26.732047080653643]
+      },
+      "properties": {
+        "name": "ゆいゆい国頭",
+        "id": 510,
+        "url": "https://www.michi-no-eki.jp/stations/views/19815"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.7741333930401, 26.36808522341758]
+      },
+      "properties": {
+        "name": "かでな",
+        "id": 511,
+        "url": "https://www.michi-no-eki.jp/stations/views/19816"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.75818853844127, 26.399265496848372]
+      },
+      "properties": {
+        "name": "喜名番所",
+        "id": 512,
+        "url": "https://www.michi-no-eki.jp/stations/views/19817"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.6555565372046, 26.157677511788602]
+      },
+      "properties": {
+        "name": "豊崎",
+        "id": 513,
+        "url": "https://www.michi-no-eki.jp/stations/views/19818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.66108610530341, 26.138433217738395]
+      },
+      "properties": {
+        "name": "いとまん",
+        "id": 514,
+        "url": "https://www.michi-no-eki.jp/stations/views/19819"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.95179506857556, 26.473848862716356]
+      },
+      "properties": {
+        "name": "ぎのざ",
+        "id": 515,
+        "url": "https://www.michi-no-eki.jp/stations/views/19820"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.1532480887402, 26.63102660180169]
+      },
+      "properties": {
+        "name": "サンライズひがし",
+        "id": 516,
+        "url": "https://www.michi-no-eki.jp/stations/views/19954"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.28054042092788, 26.70508188664349]
+      },
+      "properties": {
+        "name": "やんばるパイナップルの丘 安波",
+        "id": 517,
+        "url": "https://www.michi-no-eki.jp/stations/views/19976"
+      }
     }
   ]
 }
