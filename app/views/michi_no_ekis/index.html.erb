@@ -1,5 +1,9 @@
-<h1 class="text-center text-xl font-bold my-8">道の駅リスト</h1>
+<h1 class="text-center text-xl font-bold my-8 p-4">道の駅スタンプラリーに参加しよう！道の駅に訪れるたびにランダムにデジタルスタンプがもらえます。<br>全10個のスタンプを集めて、ドライブの楽しさを倍増させましょう</h1>
 <div id="map" class="h-96 w-full"></div>
+<div class= "text-center my-8">
+  <p class="font-bold text-xl my-4">Googleマップ上にある道の駅に着きましたら下記のボタンでコドラに知らせてください</p>
+  <button id="reload-button" class="bg-blue-500 text-white font-bold py-2 px-4 rounded mx-4">道の駅に着きました</button>
+</div>
 <div class="flex justify-center items-center text-xl font-bold">
   <h2 class="text-center my-8">取得したスタンプ</h2>
   <div id="stamp-header" class="flex ml-8">
@@ -29,7 +33,7 @@ function initializeStampApp() {
     // HTMLのmap要素をGoogleマップに置き換える
     map = new google.maps.Map(document.getElementById("map"), {
       // マップのズームレベルを設定
-      zoom: 8,
+      zoom: 7,
       // マップの中心を設定（愛知）
       center: new google.maps.LatLng(35.1815, 136.9066)
     });
@@ -232,7 +236,7 @@ function initializeStampApp() {
       // 画像のURLを設定する
       newStampImage.src = imageUrl;
       // 画像にCSSクラスを追加
-      newStampImage.classList.add('w-12', 'h-12', 'm-2');
+      newStampImage.classList.add('w-24', 'h-24', 'm-2');
       // 画像のIDを設定する
       newStampImage.id = `stamp-${id}`;
 
@@ -250,6 +254,16 @@ document.addEventListener("turbolinks:load", initializeStampApp);
 
 // DOMContentLoadedイベントをリッスンする
 document.addEventListener("DOMContentLoaded", initializeStampApp);
+
+// リロードボタンのクリックイベントを追加
+document.addEventListener('DOMContentLoaded', function() {
+  var reloadButton = document.getElementById('reload-button');
+  if (reloadButton) {
+    reloadButton.addEventListener('click', function() {
+      location.reload();
+    });
+  }
+});
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=<%= ENV["GOOGLE_MAPS_API_KEY"] %>&callback=initMap&libraries=geometry" async defer></script>
