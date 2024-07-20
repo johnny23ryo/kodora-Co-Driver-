@@ -9,8 +9,16 @@ class StampsController < ApplicationController
     if michi_no_eki
       # ランダムな画像を選択
       images = [
-        view_context.asset_path("stamp-1.png"),
-        view_context.asset_path("stamp-2.png")
+        view_context.asset_path("911.png"),
+        view_context.asset_path("civic.png"),
+        view_context.asset_path("diablo .png"),
+        view_context.asset_path("e_type.png"),
+        view_context.asset_path("figaro.png"),
+        view_context.asset_path("mini.png"),
+        view_context.asset_path("nsx.png"),
+        view_context.asset_path("rx-7.png"),
+        view_context.asset_path("volkswagen_bus_1.png"),
+        view_context.asset_path("wrangler.png")
       ]
 
       # 配列からランダムに1つの画像URLを選択し、変数に保存
