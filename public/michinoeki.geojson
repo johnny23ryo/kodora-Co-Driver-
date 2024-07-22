@@ -8700,6 +8700,402 @@
         "id": 726,
         "url": "https://www.michi-no-eki.jp/stations/views/19966"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.37617693438847, 40.25151816374789]
+      },
+      "properties": {
+        "name": "たかのす",
+        "id": 727,
+        "url": "https://www.michi-no-eki.jp/stations/views/18969"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.2595661796311, 40.21615042033095]
+      },
+      "properties": {
+        "name": "ふたつい",
+        "id": 728,
+        "url": "https://www.michi-no-eki.jp/stations/views/18970"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.0148428981305, 39.362931252532256]
+      },
+      "properties": {
+        "name": "にしめ",
+        "id": 729,
+        "url": "https://www.michi-no-eki.jp/stations/views/18971"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.62469727963952, 40.42067717144394]
+      },
+      "properties": {
+        "name": "やたて峠",
+        "id": 730,
+        "url": "https://www.michi-no-eki.jp/stations/views/18972"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.9485228084754, 40.421603971443695]
+      },
+      "properties": {
+        "name": "はちもり",
+        "id": 731,
+        "url": "https://www.michi-no-eki.jp/stations/views/18973"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.7858011563466, 40.18170916204525]
+      },
+      "properties": {
+        "name": "かづの",
+        "id": 732,
+        "url": "https://www.michi-no-eki.jp/stations/views/18974"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.37659893727496, 39.5218104633533]
+      },
+      "properties": {
+        "name": "かみおか",
+        "id": 733,
+        "url": "https://www.michi-no-eki.jp/stations/views/18975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.08086595950107, 40.02190809193573]
+      },
+      "properties": {
+        "name": "ことおか",
+        "id": 734,
+        "url": "https://www.michi-no-eki.jp/stations/views/18976"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.28451596054921, 39.300662878628096]
+      },
+      "properties": {
+        "name": "東由利",
+        "id": 735,
+        "url": "https://www.michi-no-eki.jp/stations/views/18977"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.29684550541782, 40.063252185547746]
+      },
+      "properties": {
+        "name": "かみこあに",
+        "id": 736,
+        "url": "https://www.michi-no-eki.jp/stations/views/18978"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.90075474890446, 39.21976534315477]
+      },
+      "properties": {
+        "name": "象潟ねむの丘",
+        "id": 737,
+        "url": "https://www.michi-no-eki.jp/stations/views/18979"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.5325091177368, 39.53860918508546]
+      },
+      "properties": {
+        "name": "なかせん",
+        "id": 738,
+        "url": "https://www.michi-no-eki.jp/stations/views/18980"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.4603634237642, 39.06505374149431]
+      },
+      "properties": {
+        "name": "おがち",
+        "id": 739,
+        "url": "https://www.michi-no-eki.jp/stations/views/18981"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.00995269125846, 39.85717894340219]
+      },
+      "properties": {
+        "name": "てんのう",
+        "id": 740,
+        "url": "https://www.michi-no-eki.jp/stations/views/18982"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.05342111029063, 39.542437733827576]
+      },
+      "properties": {
+        "name": "岩城 アキタウミヨコ",
+        "id": 741,
+        "url": "https://www.michi-no-eki.jp/stations/views/18983"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.0778348639434, 39.865100682239564]
+      },
+      "properties": {
+        "name": "しょうわ",
+        "id": 742,
+        "url": "https://www.michi-no-eki.jp/stations/views/18984"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.0282565759314, 40.264506931995314]
+      },
+      "properties": {
+        "name": "みねはま",
+        "id": 743,
+        "url": "https://www.michi-no-eki.jp/stations/views/18985"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.62596960925435, 39.28914865923167]
+      },
+      "properties": {
+        "name": "さんない",
+        "id": 744,
+        "url": "https://michi-no-eki.jp/stations/views/18986"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.08966560473414, 39.443220200835086]
+      },
+      "properties": {
+        "name": "おおうち",
+        "id": 745,
+        "url": "https://www.michi-no-eki.jp/stations/views/18987"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.45657977406586, 39.90155073273961]
+      },
+      "properties": {
+        "name": "あに・マタギの里",
+        "id": 746,
+        "url": "https://www.michi-no-eki.jp/stations/views/18988"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.58530193827474, 40.219415780740775]
+      },
+      "properties": {
+        "name": "ひない",
+        "id": 747,
+        "url": "https://www.michi-no-eki.jp/stations/views/18989"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.1439990759186, 39.94760062166321]
+      },
+      "properties": {
+        "name": "五城目",
+        "id": 748,
+        "url": "https://www.michi-no-eki.jp/stations/views/18990"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.29137135260174, 39.109221996670556]
+      },
+      "properties": {
+        "name": "清水の里・鳥海郷",
+        "id": 749,
+        "url": "https://www.michi-no-eki.jp/stations/views/18991"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.56749090843346, 39.3794324663764]
+      },
+      "properties": {
+        "name": "美郷",
+        "id": 750,
+        "url": "https://www.michi-no-eki.jp/stations/views/18992"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.36300712563718, 39.61852050058425]
+      },
+      "properties": {
+        "name": "協和 四季の森",
+        "id": 751,
+        "url": "https://www.michi-no-eki.jp/stations/views/18993"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.5210453153252, 39.22630780013014]
+      },
+      "properties": {
+        "name": "十文字",
+        "id": 752,
+        "url": "https://www.michi-no-eki.jp/stations/views/18994"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.95141785078712, 40.015504354613974]
+      },
+      "properties": {
+        "name": "おおがた",
+        "id": 753,
+        "url": "https://michi-no-eki.jp/stations/views/18995"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.0609079912542, 39.75263102309675]
+      },
+      "properties": {
+        "name": "あきた港",
+        "id": 754,
+        "url": "https://www.michi-no-eki.jp/stations/views/18996"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.78202534601562, 40.35650578784798]
+      },
+      "properties": {
+        "name": "こさか七滝",
+        "id": 755,
+        "url": "https://www.michi-no-eki.jp/stations/views/18997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.37280950661528, 40.19614737637366]
+      },
+      "properties": {
+        "name": "大館能代空港",
+        "id": 756,
+        "url": "https://www.michi-no-eki.jp/stations/views/18998"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.41313925630726, 39.20070112916266]
+      },
+      "properties": {
+        "name": "うご 端縫いの郷",
+        "id": 757,
+        "url": "https://www.michi-no-eki.jp/stations/views/19860"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.82569612881258, 40.29574642541343]
+      },
+      "properties": {
+        "name": "おおゆ",
+        "id": 758,
+        "url": "https://www.michi-no-eki.jp/stations/views/19901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.84801682140966, 39.88196485539112]
+      },
+      "properties": {
+        "name": "おが なまはげの里オガーレ",
+        "id": 759,
+        "url": "https://www.michi-no-eki.jp/stations/views/19915"
+      }
     }
   ]
 }
