@@ -8484,6 +8484,222 @@
         "id": 708,
         "url": "https://www.michi-no-eki.jp/stations/views/21974"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.4664480660695, 37.982754010511634]
+      },
+      "properties": {
+        "name": "七ヶ宿",
+        "id": 709,
+        "url": "https://www.michi-no-eki.jp/stations/views/18957"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.3249790391098, 38.6197792717898]
+      },
+      "properties": {
+        "name": "津山",
+        "id": 710,
+        "url": "https://www.michi-no-eki.jp/stations/views/18958"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.93816120370394, 38.52204885481936]
+      },
+      "properties": {
+        "name": "三本木",
+        "id": 711,
+        "url": "https://www.michi-no-eki.jp/stations/views/18959"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.84462431904655, 38.794511846806174]
+      },
+      "properties": {
+        "name": "路田里はなやま",
+        "id": 712,
+        "url": "https://www.michi-no-eki.jp/stations/views/18960"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.56222067774263, 38.81480122967751]
+      },
+      "properties": {
+        "name": "大谷海岸",
+        "id": 713,
+        "url": "https://www.michi-no-eki.jp/stations/views/18961"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.99262360471195, 38.42407993995011]
+      },
+      "properties": {
+        "name": "おおさと",
+        "id": 714,
+        "url": "https://www.michi-no-eki.jp/stations/views/18962"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.18788837958692, 38.62698803696796]
+      },
+      "properties": {
+        "name": "米山",
+        "id": 715,
+        "url": "https://www.michi-no-eki.jp/stations/views/18963"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.83299924518275, 38.70759279402632]
+      },
+      "properties": {
+        "name": "あ・ら・伊達な道の駅",
+        "id": 716,
+        "url": "https://www.michi-no-eki.jp/stations/views/18964"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.31572968697583, 38.7426889694022]
+      },
+      "properties": {
+        "name": "林林館",
+        "id": 717,
+        "url": "https://www.michi-no-eki.jp/stations/views/18965"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.29537291530588, 38.50094472729509]
+      },
+      "properties": {
+        "name": "上品の郷",
+        "id": 718,
+        "url": "https://www.michi-no-eki.jp/stations/views/18966"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.16061772189772, 38.66500340340077]
+      },
+      "properties": {
+        "name": "みなみかた",
+        "id": 719,
+        "url": "https://www.michi-no-eki.jp/stations/views/18967"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.71725431023492, 38.11870943485177]
+      },
+      "properties": {
+        "name": "村田",
+        "id": 720,
+        "url": "https://www.michi-no-eki.jp/stations/views/18968"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.32799863539196, 38.70784811615373]
+      },
+      "properties": {
+        "name": "三滝堂",
+        "id": 721,
+        "url": "https://www.michi-no-eki.jp/stations/views/19842"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.8073298679008, 37.96889032996611]
+      },
+      "properties": {
+        "name": "かくだ",
+        "id": 722,
+        "url": "https://www.michi-no-eki.jp/stations/views/19929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.95667954887932, 38.58000229751951]
+      },
+      "properties": {
+        "name": "おおさき",
+        "id": 723,
+        "url": "https://www.michi-no-eki.jp/stations/views/19935"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.46817139305625, 38.52058088959198]
+      },
+      "properties": {
+        "name": "硯上の里おがつ",
+        "id": 724,
+        "url": "https://www.michi-no-eki.jp/stations/views/19964"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.4455943999746, 38.44606471794364]
+      },
+      "properties": {
+        "name": "おながわ",
+        "id": 725,
+        "url": "https://www.michi-no-eki.jp/stations/views/19965"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.44803652432503, 38.67922196373106]
+      },
+      "properties": {
+        "name": "さんさん南三陸",
+        "id": 726,
+        "url": "https://www.michi-no-eki.jp/stations/views/19966"
+      }
     }
   ]
 }
