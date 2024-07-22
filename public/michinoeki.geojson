@@ -7716,6 +7716,342 @@
         "id": 644,
         "url": "https://www.michi-no-eki.jp/stations/views/19962"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.15500917781915, 40.71653572959194]
+      },
+      "properties": {
+        "name": "しちのへ",
+        "id": 645,
+        "url": "https://www.michi-no-eki.jp/stations/views/18900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.6080538182852, 40.45843755483472]
+      },
+      "properties": {
+        "name": "はしかみ",
+        "id": 646,
+        "url": "https://www.michi-no-eki.jp/stations/views/18901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.68735452199314, 40.58085296828052]
+      },
+      "properties": {
+        "name": "虹の湖",
+        "id": 647,
+        "url": "https://www.michi-no-eki.jp/stations/views/18902"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.80503757968913, 41.167836365333834]
+      },
+      "properties": {
+        "name": "わきのさわ",
+        "id": 648,
+        "url": "https://www.michi-no-eki.jp/stations/views/18903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.887885856944, 41.27050327355325]
+      },
+      "properties": {
+        "name": "かわうち湖",
+        "id": 649,
+        "url": "https://www.michi-no-eki.jp/stations/views/18904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.06903714592823, 40.42949734631383]
+      },
+      "properties": {
+        "name": "しんごう",
+        "id": 650,
+        "url": "https://www.michi-no-eki.jp/stations/views/18905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.5489553483806, 40.555153281973645]
+      },
+      "properties": {
+        "name": "ひろさき",
+        "id": 651,
+        "url": "https://www.michi-no-eki.jp/stations/views/18906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.1176714778138, 40.58553921072601]
+      },
+      "properties": {
+        "name": "奥入瀬",
+        "id": 652,
+        "url": "https://www.michi-no-eki.jp/stations/views/18907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.25555700555438, 40.38769454213203]
+      },
+      "properties": {
+        "name": "さんのへ",
+        "id": 653,
+        "url": "https://www.michi-no-eki.jp/stations/views/18908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.57927232014742, 40.717733857034915]
+      },
+      "properties": {
+        "name": "なみおか",
+        "id": 654,
+        "url": "https://www.michi-no-eki.jp/stations/views/18909"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.38401260185145, 41.046019262752395]
+      },
+      "properties": {
+        "name": "十三湖高原",
+        "id": 655,
+        "url": "https://www.michi-no-eki.jp/stations/views/18910"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.51387948762618, 41.14565660147854]
+      },
+      "properties": {
+        "name": "いまべつ",
+        "id": 656,
+        "url": "https://www.michi-no-eki.jp/stations/views/18911"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.43027676308336, 40.40667404365971]
+      },
+      "properties": {
+        "name": "なんごう",
+        "id": 657,
+        "url": "https://michi-no-eki.jp/stations/views/18912"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.32242703253883, 40.78445867968828]
+      },
+      "properties": {
+        "name": "もりた",
+        "id": 658,
+        "url": "https://www.michi-no-eki.jp/stations/views/18913"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.86133411036514, 40.89154102660449]
+      },
+      "properties": {
+        "name": "浅虫温泉",
+        "id": 659,
+        "url": "https://www.michi-no-eki.jp/stations/views/18914"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.62365584887152, 40.48142939755448]
+      },
+      "properties": {
+        "name": "いかりがせき",
+        "id": 660,
+        "url": "https://www.michi-no-eki.jp/stations/views/18915"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.57735320665165, 40.63375580125717]
+      },
+      "properties": {
+        "name": "いなかだて",
+        "id": 661,
+        "url": "https://www.michi-no-eki.jp/stations/views/18916"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.2567483876236, 41.08380511875738]
+      },
+      "properties": {
+        "name": "よこはま",
+        "id": 662,
+        "url": "https://www.michi-no-eki.jp/stations/views/18917"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.3460347558517, 41.25395382887123]
+      },
+      "properties": {
+        "name": "みんまや",
+        "id": 663,
+        "url": "https://www.michi-no-eki.jp/stations/views/18918"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.31977957413395, 41.14538427133653]
+      },
+      "properties": {
+        "name": "こどまり",
+        "id": 664,
+        "url": "https://www.michi-no-eki.jp/stations/views/18919"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.36258560665803, 40.78587414160341]
+      },
+      "properties": {
+        "name": "みさわ",
+        "id": 665,
+        "url": "https://www.michi-no-eki.jp/stations/views/18920"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.26459863548513, 40.574412220634706]
+      },
+      "properties": {
+        "name": "とわだ",
+        "id": 666,
+        "url": "https://www.michi-no-eki.jp/stations/views/18921"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.44242707041408, 40.736804083189924]
+      },
+      "properties": {
+        "name": "つるた",
+        "id": 667,
+        "url": "https://www.michi-no-eki.jp/stations/views/18922"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.00068080850752, 40.744022285835236]
+      },
+      "properties": {
+        "name": "ふかうら",
+        "id": 668,
+        "url": "https://www.michi-no-eki.jp/stations/views/18923"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.274768974867, 40.7281514824831]
+      },
+      "properties": {
+        "name": "おがわら湖",
+        "id": 669,
+        "url": "https://www.michi-no-eki.jp/stations/views/18924"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.64125384900214, 41.17521307133244]
+      },
+      "properties": {
+        "name": "たいらだて",
+        "id": 670,
+        "url": "https://www.michi-no-eki.jp/stations/views/18925"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.32434148760385, 40.60640914332935]
+      },
+      "properties": {
+        "name": "ろくのへ",
+        "id": 671,
+        "url": "https://www.michi-no-eki.jp/stations/views/18926"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.30055879315705, 40.57795336171654]
+      },
+      "properties": {
+        "name": "津軽白神",
+        "id": 672,
+        "url": "https://www.michi-no-eki.jp/stations/views/19899"
+      }
     }
   ]
 }
