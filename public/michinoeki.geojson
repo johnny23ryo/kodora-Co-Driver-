@@ -9804,6 +9804,198 @@
         "id": 818,
         "url": "https://www.michi-no-eki.jp/stations/views/19971"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.33295838222256, 36.54492356180712]
+      },
+      "properties": {
+        "name": "かつら",
+        "id": 819,
+        "url": "https://www.michi-no-eki.jp/stations/views/19044"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.50968532453305, 36.70571200574202]
+      },
+      "properties": {
+        "name": "さとみ",
+        "id": 820,
+        "url": "https://www.michi-no-eki.jp/stations/views/19045"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.7948519390354, 36.102311911806886]
+      },
+      "properties": {
+        "name": "さかい",
+        "id": 821,
+        "url": "https://www.michi-no-eki.jp/stations/views/19046"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.3592968366134, 36.76831368226592]
+      },
+      "properties": {
+        "name": "奥久慈だいご",
+        "id": 822,
+        "url": "https://www.michi-no-eki.jp/stations/views/19047"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.9869008102035, 36.21655424005465]
+      },
+      "properties": {
+        "name": "しもつま",
+        "id": 823,
+        "url": "https://www.michi-no-eki.jp/stations/views/19048"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.40249282183817, 36.09541067234701]
+      },
+      "properties": {
+        "name": "たまつくり",
+        "id": 824,
+        "url": "https://www.michi-no-eki.jp/stations/views/19049"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.5893644715711, 35.9462632438381]
+      },
+      "properties": {
+        "name": "いたこ",
+        "id": 825,
+        "url": "https://www.michi-no-eki.jp/stations/views/19050"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.757995264166, 36.09538404164772]
+      },
+      "properties": {
+        "name": "ごか",
+        "id": 826,
+        "url": "https://www.michi-no-eki.jp/stations/views/19051"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.78963833293122, 36.19178244986067]
+      },
+      "properties": {
+        "name": "まくらがの里 こが",
+        "id": 827,
+        "url": "https://www.michi-no-eki.jp/stations/views/19052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.61558103424505, 36.4924514546266]
+      },
+      "properties": {
+        "name": "日立おさかなセンター",
+        "id": 828,
+        "url": "https://www.michi-no-eki.jp/stations/views/19053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.41003830701553, 36.59697651132268]
+      },
+      "properties": {
+        "name": "常陸大宮～かわプラザ～",
+        "id": 829,
+        "url": "https://www.michi-no-eki.jp/stations/views/19843"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.52541556973927, 36.51057984895179]
+      },
+      "properties": {
+        "name": "ひたちおおた",
+        "id": 830,
+        "url": "https://www.michi-no-eki.jp/stations/views/19844"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.99352178930516, 36.32285617227731]
+      },
+      "properties": {
+        "name": "グランテラス筑西",
+        "id": 831,
+        "url": "https://www.michi-no-eki.jp/stations/views/19937"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.27435993904479, 36.35605199363476]
+      },
+      "properties": {
+        "name": "かさま",
+        "id": 832,
+        "url": "https://www.michi-no-eki.jp/stations/views/19972"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.27980645743375, 36.655750885862005]
+      },
+      "properties": {
+        "name": "みわ",
+        "id": 833,
+        "url": "https://www.michi-no-eki.jp/stations/views/21624"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.98530421571505, 36.08372283650563]
+      },
+      "properties": {
+        "name": "常総",
+        "id": 834,
+        "url": "https://www.michi-no-eki.jp/stations/views/21975"
+      }
     }
   ]
 }
