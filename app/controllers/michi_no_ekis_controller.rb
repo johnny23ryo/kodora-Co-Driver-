@@ -1,4 +1,5 @@
 class MichiNoEkisController < ApplicationController
+  before_action :require_login, except: [:index, :stamp]
   before_action :authenticate_user!, only: [:stamp]
 
   def index

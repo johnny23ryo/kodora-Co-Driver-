@@ -1,4 +1,5 @@
 class RoutesController < ApplicationController
+  before_action :require_login, except: [:new, :create]
   def new
   end
 
