@@ -1,6 +1,14 @@
 class StampsController < ApplicationController
   before_action :require_login
 
+  def index
+    # 現在ログインしているユーザーのすべてのスタンプを取得
+    stamps = current_user.stamps
+
+    # スタンプのIDと画像URLをJSON形式で返
+    render json: stamps.map { |stamp| { id: stamp.michi_no_eki_id, image_url: stamp.image_url } }
+  end
+
   def create
     # # find_michi_no_eki_from_geojsonメソッドを使用して、GeoJSONファイルから指定された道の駅の情報を取得する
     michi_no_eki = find_michi_no_eki_from_geojson(params[:michi_no_eki_id])
@@ -40,14 +48,6 @@ class StampsController < ApplicationController
     else
       render json: { success: false, message: "道の駅が見つかりません。" }
     end
-  end
-
-  def index
-    # 現在ログインしているユーザーのすべてのスタンプを取得
-    stamps = current_user.stamps
-
-    # スタンプのIDと画像URLをJSON形式で返
-    render json: stamps.map { |stamp| { id: stamp.michi_no_eki_id, image_url: stamp.image_url } }
   end
 
   private

@@ -1,4 +1,5 @@
 class SpotsController < ApplicationController
+  before_action :require_login, except: [:index, :restaurants, :rest_areas, :tourist_spot]
   protect_from_forgery with: :null_session
 
   def index; end
