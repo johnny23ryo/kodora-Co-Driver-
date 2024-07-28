@@ -12840,6 +12840,642 @@
         "id": 1070,
         "url": "https://www.michi-no-eki.jp/stations/views/19906"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.05237162192557, 36.584991372199276]
+      },
+      "properties": {
+          "name": "信州新町",
+          "id": 1071,
+          "url": "https://www.michi-no-eki.jp/stations/views/19171"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.95894226981505, 36.527185965114086]
+      },
+      "properties": {
+          "name": "長野市大岡特産センター",
+          "id": 1072,
+          "url": "https://www.michi-no-eki.jp/stations/views/19172"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.58198335819623, 36.98863267208331]
+      },
+      "properties": {
+          "name": "信越さかえ",
+          "id": 1073,
+          "url": "https://www.michi-no-eki.jp/stations/views/19173"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.9873088563085, 36.10625670266483]
+      },
+      "properties": {
+          "name": "小坂田公園",
+          "id": 1074,
+          "url": "https://www.michi-no-eki.jp/stations/views/19174"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.88455182377336, 36.39706384405618]
+      },
+      "properties": {
+          "name": "池田",
+          "id": 1075,
+          "url": "https://www.michi-no-eki.jp/stations/views/19175"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.0156002661083, 36.603827900937034]
+      },
+      "properties": {
+          "name": "中条",
+          "id": 1076,
+          "url": "https://www.michi-no-eki.jp/stations/views/19176"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.35953675075274, 36.33440844370939]
+      },
+      "properties": {
+          "name": "みまき",
+          "id": 1077,
+          "url": "https://www.michi-no-eki.jp/stations/views/19177"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.84697443727381, 36.653535150234866]
+      },
+      "properties": {
+          "name": "白馬",
+          "id": 1078,
+          "url": "https://www.michi-no-eki.jp/stations/views/19178"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.32238406611572, 36.8009121721366]
+      },
+      "properties": {
+          "name": "ふるさと豊田",
+          "id": 1079,
+          "url": "https://www.michi-no-eki.jp/stations/views/19179"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.25808066795074, 36.27310987581795]
+      },
+      "properties": {
+          "name": "マルメロの駅ながと",
+          "id": 1080,
+          "url": "https://www.michi-no-eki.jp/stations/views/19180"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.40413995074996, 36.25752061541441]
+      },
+      "properties": {
+          "name": "ほっとぱ～く・浅科",
+          "id": 1081,
+          "url": "https://www.michi-no-eki.jp/stations/views/19181"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.8778726102787, 36.29294902483307]
+      },
+      "properties": {
+          "name": "アルプス安曇野　ほりがねの里",
+          "id": 1082,
+          "url": "https://www.michi-no-eki.jp/stations/views/19182"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.86752547168192, 36.39584194003911]
+      },
+      "properties": {
+          "name": "安曇野松川",
+          "id": 1083,
+          "url": "https://www.michi-no-eki.jp/stations/views/19183"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.75174516484728, 36.15322345870236]
+      },
+      "properties": {
+          "name": "風穴の里",
+          "id": 1084,
+          "url": "https://www.michi-no-eki.jp/stations/views/19184"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.40442060473126, 36.74128156464996]
+      },
+      "properties": {
+          "name": "北信州やまのうち",
+          "id": 1085,
+          "url": "https://www.michi-no-eki.jp/stations/views/19185"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.20511637773694, 36.40666080708588]
+      },
+      "properties": {
+          "name": "上田 道と川の駅",
+          "id": 1086,
+          "url": "https://www.michi-no-eki.jp/stations/views/19186"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.2766084967721, 35.86348696204431]
+      },
+      "properties": {
+          "name": "信州蔦木宿",
+          "id": 1087,
+          "url": "https://www.michi-no-eki.jp/stations/views/19187"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.1900769065887, 36.81771446106025]
+      },
+      "properties": {
+          "name": "しなの",
+          "id": 1088,
+          "url": "https://www.michi-no-eki.jp/stations/views/19188"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.8996554198566, 36.84537052076602]
+      },
+      "properties": {
+          "name": "小谷",
+          "id": 1089,
+          "url": "https://www.michi-no-eki.jp/stations/views/19189"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.01204196795643, 36.42633917018764]
+      },
+      "properties": {
+          "name": "さかきた",
+          "id": 1090,
+          "url": "https://www.michi-no-eki.jp/stations/views/19190"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.89478042133572, 36.60553776585403]
+      },
+      "properties": {
+          "name": "ぽかぽかランド美麻",
+          "id": 1091,
+          "url": "https://www.michi-no-eki.jp/stations/views/19191"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.29451284705635, 36.689353869441355]
+      },
+      "properties": {
+          "name": "オアシスおぶせ",
+          "id": 1092,
+          "url": "https://www.michi-no-eki.jp/stations/views/19192"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.3748721660989, 36.355634431767285]
+      },
+      "properties": {
+          "name": "雷電くるみの里",
+          "id": 1093,
+          "url": "https://www.michi-no-eki.jp/stations/views/19193"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.38828013728224, 36.881876190391374]
+      },
+      "properties": {
+          "name": "花の駅 千曲川",
+          "id": 1094,
+          "url": "https://www.michi-no-eki.jp/stations/views/19194"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.14033112562734, 36.37241009498792]
+      },
+      "properties": {
+          "name": "あおき",
+          "id": 1095,
+          "url": "https://www.michi-no-eki.jp/stations/views/19195"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.99075759865477, 36.61306339586938]
+      },
+      "properties": {
+          "name": "おがわ",
+          "id": 1096,
+          "url": "https://www.michi-no-eki.jp/stations/views/19196"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.14027298144006, 36.23080223588973]
+      },
+      "properties": {
+          "name": "美ヶ原高原",
+          "id": 1097,
+          "url": "https://www.michi-no-eki.jp/stations/views/19197"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.90263460656382, 36.14839697031811]
+      },
+      "properties": {
+          "name": "今井 恵みの里",
+          "id": 1098,
+          "url": "https://www.michi-no-eki.jp/stations/views/19198"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.73933898935314, 35.86673428351092]
+      },
+      "properties": {
+          "name": "日義木曽駒高原",
+          "id": 1099,
+          "url": "https://www.michi-no-eki.jp/stations/views/19273"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.65302027771028, 35.68210145781235]
+      },
+      "properties": {
+          "name": "大桑",
+          "id": 1100,
+          "url": "https://www.michi-no-eki.jp/stations/views/19274"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.8145037814304, 35.967585555764295]
+      },
+      "properties": {
+          "name": "奈良井木曽の大橋",
+          "id": 1101,
+          "url": "https://www.michi-no-eki.jp/stations/views/19275"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.6317676776975, 35.32417544055587]
+      },
+      "properties": {
+          "name": "信州平谷",
+          "id": 1102,
+          "url": "https://www.michi-no-eki.jp/stations/views/19277"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.79413226050048, 35.41743144212606]
+      },
+      "properties": {
+          "name": "信濃路下條",
+          "id": 1103,
+          "url": "https://www.michi-no-eki.jp/stations/views/19278"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.0831529046966, 35.81034937499184]
+      },
+      "properties": {
+          "name": "南アルプスむら長谷",
+          "id": 1104,
+          "url": "https://www.michi-no-eki.jp/stations/views/19279"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.84304411026744, 35.986201091052656]
+      },
+      "properties": {
+          "name": "木曽ならかわ",
+          "id": 1105,
+          "url": "https://www.michi-no-eki.jp/stations/views/19280"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.6480197409526, 35.82240197038569]
+      },
+      "properties": {
+          "name": "三岳",
+          "id": 1106,
+          "url": "https://www.michi-no-eki.jp/stations/views/19281"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.74514512558665, 35.257282894272905]
+      },
+      "properties": {
+          "name": "信州新野千石平",
+          "id": 1107,
+          "url": "https://www.michi-no-eki.jp/stations/views/19282"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.9103338237463, 35.661629223194076]
+      },
+      "properties": {
+          "name": "花の里いいじま",
+          "id": 1108,
+          "url": "https://www.michi-no-eki.jp/stations/views/19283"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.92999652002476, 35.32131558039757]
+      },
+      "properties": {
+          "name": "遠山郷",
+          "id": 1109,
+          "url": "https://www.michi-no-eki.jp/stations/views/19284"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.6826798189491, 35.817264901711916]
+      },
+      "properties": {
+          "name": "木曽福島",
+          "id": 1110,
+          "url": "https://www.michi-no-eki.jp/stations/views/19285"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.786145701979, 35.930692907059836]
+      },
+      "properties": {
+          "name": "木曽川源流の里 きそむら",
+          "id": 1111,
+          "url": "https://www.michi-no-eki.jp/stations/views/19286"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.38858309511022, 36.85214537759525]
+      },
+      "properties": {
+          "name": "FARMUS 木島平",
+          "id": 1112,
+          "url": "https://www.michi-no-eki.jp/stations/views/19828"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.9400381814433, 35.69079087247527]
+      },
+      "properties": {
+          "name": "田切の里",
+          "id": 1113,
+          "url": "https://www.michi-no-eki.jp/stations/views/19867"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.439760694954, 36.23648467972151]
+      },
+      "properties": {
+          "name": "ヘルシーテラス佐久南",
+          "id": 1114,
+          "url": "https://www.michi-no-eki.jp/stations/views/19879"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.32949882750282, 36.27599942429965]
+      },
+      "properties": {
+          "name": "女神の里 たてしな",
+          "id": 1115,
+          "url": "https://www.michi-no-eki.jp/stations/views/19907"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.8911448795826, 35.544202683419506]
+      },
+      "properties": {
+          "name": "南信州 とよおかマルシェ",
+          "id": 1116,
+          "url": "https://www.michi-no-eki.jp/stations/views/19908"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.9439294912736, 35.88690855894261]
+      },
+      "properties": {
+          "name": "大芝高原",
+          "id": 1117,
+          "url": "https://www.michi-no-eki.jp/stations/views/19916"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.70950116608213, 35.27378896783272]
+      },
+      "properties": {
+          "name": "南信州うるぎ",
+          "id": 1118,
+          "url": "https://www.michi-no-eki.jp/stations/views/19917"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.03714672191032, 35.565193754771606]
+      },
+      "properties": {
+          "name": "歌舞伎の里大鹿",
+          "id": 1119,
+          "url": "https://www.michi-no-eki.jp/stations/views/19918"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [137.93293614285446, 36.42449067224676]
+      },
+      "properties": {
+          "name": "いくさかの郷",
+          "id": 1120,
+          "url": "https://www.michi-no-eki.jp/stations/views/19919"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.44792368692885, 36.96010602357774]
+      },
+      "properties": {
+          "name": "野沢温泉",
+          "id": 1121,
+          "url": "https://www.michi-no-eki.jp/stations/views/19939"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.25793706627368, 36.0515664370658]
+      },
+      "properties": {
+          "name": "ビーナスライン蓼科湖",
+          "id": 1122,
+          "url": "https://www.michi-no-eki.jp/stations/views/19947"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [138.21360752434475, 36.205651008996206]
+      },
+      "properties": {
+          "name": "和田宿ステーション",
+          "id": 1123,
+          "url": "https://www.michi-no-eki.jp/stations/views/22056"
+      }
     }
   ]
 }
