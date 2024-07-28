@@ -12348,6 +12348,246 @@
         "id": 1029,
         "url": "https://www.michi-no-eki.jp/stations/views/19910"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.09228403909697, 35.79673597669939]
+      },
+      "properties": {
+        "name": "河野",
+        "id": 1030,
+        "url": "https://www.michi-no-eki.jp/stations/views/19392"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.6618314102644, 35.904328762736014]
+      },
+      "properties": {
+        "name": "九頭竜",
+        "id": 1031,
+        "url": "https://www.michi-no-eki.jp/stations/views/19393"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.11928092561243, 35.969562588195345]
+      },
+      "properties": {
+        "name": "パークイン丹生ヶ丘",
+        "id": 1032,
+        "url": "https://www.michi-no-eki.jp/stations/views/19394"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.58429267955478, 35.394548264502006]
+      },
+      "properties": {
+        "name": "名田庄",
+        "id": 1033,
+        "url": "https://www.michi-no-eki.jp/stations/views/19395"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.138520210275, 36.18963301898859]
+      },
+      "properties": {
+        "name": "みくに",
+        "id": 1034,
+        "url": "https://www.michi-no-eki.jp/stations/views/19396"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.9059431967567, 35.440806504102284]
+      },
+      "properties": {
+        "name": "若狭熊川宿",
+        "id": 1035,
+        "url": "https://www.michi-no-eki.jp/stations/views/19397"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.22098485710032, 36.17049025369501]
+      },
+      "properties": {
+        "name": "さかい",
+        "id": 1036,
+        "url": "https://michi-no-eki.jp/stations/views/19398"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.5959074255948, 35.48854834405718]
+      },
+      "properties": {
+        "name": "シーサイド高浜",
+        "id": 1037,
+        "url": "https://www.michi-no-eki.jp/stations/views/19399"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.76204531500193, 35.49210459871736]
+      },
+      "properties": {
+        "name": "若狭おばま",
+        "id": 1038,
+        "url": "https://www.michi-no-eki.jp/stations/views/19400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.63005870046774, 35.48130128218195]
+      },
+      "properties": {
+        "name": "うみんぴあ大飯",
+        "id": 1039,
+        "url": "https://www.michi-no-eki.jp/stations/views/19401"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.18040183910247, 35.948747201498406]
+      },
+      "properties": {
+        "name": "西山公園",
+        "id": 1040,
+        "url": "https://www.michi-no-eki.jp/stations/views/19402"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.99694490885682, 35.919883310864435]
+      },
+      "properties": {
+        "name": "越前",
+        "id": 1041,
+        "url": "https://www.michi-no-eki.jp/stations/views/19403"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.89390448286136, 35.55975187353216]
+      },
+      "properties": {
+        "name": "三方五湖",
+        "id": 1042,
+        "url": "https://www.michi-no-eki.jp/stations/views/19404"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.29481263725023, 36.019966338062375]
+      },
+      "properties": {
+        "name": "一乗谷あさくら水の駅",
+        "id": 1043,
+        "url": "https://www.michi-no-eki.jp/stations/views/19405"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.39927664096206, 36.08004133036903]
+      },
+      "properties": {
+        "name": "禅の里",
+        "id": 1044,
+        "url": "https://www.michi-no-eki.jp/stations/views/19849"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.47893364888824, 36.0711429003816]
+      },
+      "properties": {
+        "name": "恐竜渓谷かつやま",
+        "id": 1045,
+        "url": "https://www.michi-no-eki.jp/stations/views/19950"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.55260946793962, 35.97174028946621]
+      },
+      "properties": {
+        "name": "越前おおの荒島の郷",
+        "id": 1046,
+        "url": "https://www.michi-no-eki.jp/stations/views/19967"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.2011568218977, 35.83167335885986]
+      },
+      "properties": {
+        "name": "南えちぜん山海里",
+        "id": 1047,
+        "url": "https://www.michi-no-eki.jp/stations/views/19968"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.19764173168122, 35.89507158972209]
+      },
+      "properties": {
+        "name": "越前たけふ",
+        "id": 1048,
+        "url": "https://www.michi-no-eki.jp/stations/views/21977"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.93655389305317, 35.60457321875765]
+      },
+      "properties": {
+        "name": "若狭美浜はまびより",
+        "id": 1049,
+        "url": "https://www.michi-no-eki.jp/stations/views/22058"
+      }
     }
   ]
 }
