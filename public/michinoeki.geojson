@@ -11304,6 +11304,18 @@
         "id": 942,
         "url": "https://www.michi-no-eki.jp/stations/views/22268"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.34134570840172, 35.68664275830706]
+      },
+      "properties": {
+        "name": "八王子滝山",
+        "id": 943,
+        "url": "https://www.michi-no-eki.jp/stations/views/19149"
+      }
     }
   ]
 }
