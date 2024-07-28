@@ -34,7 +34,7 @@ function initializeStampApp() {
     // HTMLのmap要素をGoogleマップに置き換える
     map = new google.maps.Map(document.getElementById("map"), {
       // マップのズームレベルを設定
-      zoom: 7,
+      zoom: 8,
       // マップの中心を設定（愛知）
       center: new google.maps.LatLng(35.1815, 136.9066)
     });
@@ -121,8 +121,8 @@ function initializeStampApp() {
           // 道の駅の位置をGoogleマップの座標形式に変換する
           const stationLatLng = new google.maps.LatLng(coords[1], coords[0]);
 
-          // 現在地と道の駅の距離が1000メートル以内かどうかを確認する(テストで30000メートル)
-          if (google.maps.geometry.spherical.computeDistanceBetween(userLatLng, stationLatLng) <= 30000) {
+          // 現在地と道の駅の距離が1000メートル以内かどうかを確認する
+          if (google.maps.geometry.spherical.computeDistanceBetween(userLatLng, stationLatLng) <= 1000) {
             // 道の駅が訪問済みでないかどうかを確認する
             if (!visitedStations.has(feature.properties.id)) {
               // サーバーに訪問を通知する
