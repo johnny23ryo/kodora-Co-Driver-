@@ -12048,6 +12048,306 @@
         "id": 1004,
         "url": "https://www.michi-no-eki.jp/stations/views/19973"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.99807122566688, 37.424227096289954]
+      },
+      "properties": {
+        "name": "千枚田ポケットパーク",
+        "id": 1005,
+        "url": "https://michi-no-eki.jp/stations/views/19250"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.72447039073452, 36.785372627218]
+      },
+      "properties": {
+        "name": "高松",
+        "id": 1006,
+        "url": "https://www.michi-no-eki.jp/stations/views/19251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.04683357769105, 37.02841030097735]
+      },
+      "properties": {
+        "name": "いおり",
+        "id": 1007,
+        "url": "https://www.michi-no-eki.jp/stations/views/19252"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.011260427518, 37.33178393378419]
+      },
+      "properties": {
+        "name": "桜峠",
+        "id": 1008,
+        "url": "https://www.michi-no-eki.jp/stations/views/19253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.6302651121387, 36.4363572353086]
+      },
+      "properties": {
+        "name": "しらやまさん",
+        "id": 1009,
+        "url": "https://www.michi-no-eki.jp/stations/views/19254"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.8631572571391, 37.130577513975425]
+      },
+      "properties": {
+        "name": "なかじまロマン峠",
+        "id": 1010,
+        "url": "https://www.michi-no-eki.jp/stations/views/19255"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.70994412566, 37.24810187201201]
+      },
+      "properties": {
+        "name": "赤神",
+        "id": 1011,
+        "url": "https://www.michi-no-eki.jp/stations/views/19256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.72541431402016, 37.140269135035616]
+      },
+      "properties": {
+        "name": "とぎ海街道",
+        "id": 1012,
+        "url": "https://www.michi-no-eki.jp/stations/views/19257"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.90631700728417, 37.389190551101954]
+      },
+      "properties": {
+        "name": "輪島 ふらっと訪夢",
+        "id": 1013,
+        "url": "https://www.michi-no-eki.jp/stations/views/19258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.77990913543218, 37.00688880738615]
+      },
+      "properties": {
+        "name": "ころ柿の里しか",
+        "id": 1014,
+        "url": "https://www.michi-no-eki.jp/stations/views/19259"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.649639994933, 36.28821540010902]
+      },
+      "properties": {
+        "name": "瀬女",
+        "id": 1015,
+        "url": "https://www.michi-no-eki.jp/stations/views/19260"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.59911497878988, 36.360568415999694]
+      },
+      "properties": {
+        "name": "一向一揆の里",
+        "id": 1016,
+        "url": "https://www.michi-no-eki.jp/stations/views/19261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.95755272365437, 37.29564363887542]
+      },
+      "properties": {
+        "name": "のと里山空港",
+        "id": 1017,
+        "url": "https://www.michi-no-eki.jp/stations/views/19262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.76734632610587, 36.66355655399939]
+      },
+      "properties": {
+        "name": "倶利伽羅　源平の郷",
+        "id": 1018,
+        "url": "https://www.michi-no-eki.jp/stations/views/19263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.99792333172766, 37.137298730843206]
+      },
+      "properties": {
+        "name": "のとじま",
+        "id": 1019,
+        "url": "https://www.michi-no-eki.jp/stations/views/19265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.11281596243222, 37.486343298578895]
+      },
+      "properties": {
+        "name": "すず塩田村",
+        "id": 1020,
+        "url": "https://www.michi-no-eki.jp/stations/views/19266"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.64928721214702, 36.658965612449734]
+      },
+      "properties": {
+        "name": "内灘サンセットパーク",
+        "id": 1021,
+        "url": "https://www.michi-no-eki.jp/stations/views/19267"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.96922517910846, 37.048438632496726]
+      },
+      "properties": {
+        "name": "能登食祭市場",
+        "id": 1022,
+        "url": "https://www.michi-no-eki.jp/stations/views/19268"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.46301529864564, 36.37026711113979]
+      },
+      "properties": {
+        "name": "こまつ木場潟",
+        "id": 1023,
+        "url": "https://www.michi-no-eki.jp/stations/views/19269"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.32424876428843, 37.52598948073272]
+      },
+      "properties": {
+        "name": "狼煙",
+        "id": 1024,
+        "url": "https://www.michi-no-eki.jp/stations/views/19270"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.27025921403154, 37.44144799038848]
+      },
+      "properties": {
+        "name": "すずなり",
+        "id": 1025,
+        "url": "https://www.michi-no-eki.jp/stations/views/19271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.90492632750437, 36.96981537208869]
+      },
+      "properties": {
+        "name": "織姫の里なかのと",
+        "id": 1026,
+        "url": "https://www.michi-no-eki.jp/stations/views/19272"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.9047526189138, 37.228199599957094]
+      },
+      "properties": {
+        "name": "あなみず",
+        "id": 1027,
+        "url": "https://www.michi-no-eki.jp/stations/views/19848"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.76889215633764, 36.885798534678]
+      },
+      "properties": {
+        "name": "のと千里浜",
+        "id": 1028,
+        "url": "https://www.michi-no-eki.jp/stations/views/19882"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.54738903305122, 36.50067699659739]
+      },
+      "properties": {
+        "name": "めぐみ白山",
+        "id": 1029,
+        "url": "https://www.michi-no-eki.jp/stations/views/19910"
+      }
     }
   ]
 }
