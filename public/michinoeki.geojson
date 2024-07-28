@@ -10944,6 +10944,366 @@
         "id": 912,
         "url": "https://www.michi-no-eki.jp/stations/views/19880"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8384208203212, 35.038520372767664]
+      },
+      "properties": {
+        "name": "とみうら",
+        "id": 913,
+        "url": "https://www.michi-no-eki.jp/stations/views/19125"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.89486101453, 35.03418310095306]
+      },
+      "properties": {
+        "name": "三芳村 鄙の里",
+        "id": 914,
+        "url": "https://www.michi-no-eki.jp/stations/views/19126"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.10681219862306, 35.75837288511126]
+      },
+      "properties": {
+        "name": "やちよ",
+        "id": 915,
+        "url": "https://www.michi-no-eki.jp/stations/views/19127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.83750132805432, 35.12791350583037]
+      },
+      "properties": {
+        "name": "きょなん",
+        "id": 916,
+        "url": "https://www.michi-no-eki.jp/stations/views/19128"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.07689357768794, 35.06393960933706]
+      },
+      "properties": {
+        "name": "鴨川オーシャンパーク",
+        "id": 917,
+        "url": "https://www.michi-no-eki.jp/stations/views/19129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.97617150591307, 35.008344087002065]
+      },
+      "properties": {
+        "name": "ローズマリー公園",
+        "id": 918,
+        "url": "https://www.michi-no-eki.jp/stations/views/19130"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.06938553351085, 35.19848233981659]
+      },
+      "properties": {
+        "name": "ふれあいパーク・きみつ",
+        "id": 919,
+        "url": "https://www.michi-no-eki.jp/stations/views/19131"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.0223999679355, 35.85724778746841]
+      },
+      "properties": {
+        "name": "しょうなん",
+        "id": 920,
+        "url": "https://www.michi-no-eki.jp/stations/views/19132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.25856265256806, 35.25486120610992]
+      },
+      "properties": {
+        "name": "たけゆらの里おおたき",
+        "id": 921,
+        "url": "https://www.michi-no-eki.jp/stations/views/19133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.47503167771228, 35.731451863189825]
+      },
+      "properties": {
+        "name": "多古 あじさい館",
+        "id": 922,
+        "url": "https://www.michi-no-eki.jp/stations/views/19134"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.10936611439493, 35.46384389919473]
+      },
+      "properties": {
+        "name": "あずの里いちはら",
+        "id": 923,
+        "url": "https://www.michi-no-eki.jp/stations/views/19135"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.46991052189682, 35.80595747355676]
+      },
+      "properties": {
+        "name": "くりもと 紅小町の郷",
+        "id": 924,
+        "url": "https://www.michi-no-eki.jp/stations/views/19136"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.952339530027, 34.93011658021609]
+      },
+      "properties": {
+        "name": "ちくら・潮風王国",
+        "id": 925,
+        "url": "https://www.michi-no-eki.jp/stations/views/19137"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8548610009614, 35.10095837267221]
+      },
+      "properties": {
+        "name": "富楽里とみやま",
+        "id": 926,
+        "url": "https://www.michi-no-eki.jp/stations/views/19138"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.86021775377483, 35.05758614423322]
+      },
+      "properties": {
+        "name": "おおつの里",
+        "id": 927,
+        "url": "https://www.michi-no-eki.jp/stations/views/19139"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.50105252280832, 35.60197435897688]
+      },
+      "properties": {
+        "name": "オライはすぬま",
+        "id": 928,
+        "url": "https://www.michi-no-eki.jp/stations/views/19140"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.20665052373894, 35.45727699002113]
+      },
+      "properties": {
+        "name": "ながら",
+        "id": 929,
+        "url": "https://www.michi-no-eki.jp/stations/views/19141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.3032521544263, 35.35372587258646]
+      },
+      "properties": {
+        "name": "むつざわ つどいの郷",
+        "id": 930,
+        "url": "https://www.michi-no-eki.jp/stations/views/19142"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.87721075255553, 34.90618386996619]
+      },
+      "properties": {
+        "name": "白浜野島崎",
+        "id": 931,
+        "url": "https://www.michi-no-eki.jp/stations/views/19143"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8209492028104, 34.94014938278733]
+      },
+      "properties": {
+        "name": "南房パラダイス",
+        "id": 932,
+        "url": "https://www.michi-no-eki.jp/stations/views/19144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.50636914888162, 35.895750137499014]
+      },
+      "properties": {
+        "name": "水の郷さわら",
+        "id": 933,
+        "url": "https://www.michi-no-eki.jp/stations/views/19145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.40993353723843, 35.69504614597178]
+      },
+      "properties": {
+        "name": "風和里しばやま",
+        "id": 934,
+        "url": "https://www.michi-no-eki.jp/stations/views/19146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.02046557768728, 35.04261522079171]
+      },
+      "properties": {
+        "name": "和田浦 WA・O！",
+        "id": 935,
+        "url": "https://www.michi-no-eki.jp/stations/views/19147"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.37910412130077, 35.900442295843085]
+      },
+      "properties": {
+        "name": "発酵の里こうざき",
+        "id": 936,
+        "url": "https://www.michi-no-eki.jp/stations/views/19148"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.67539204887512, 35.717768315549876]
+      },
+      "properties": {
+        "name": "季楽里あさひ",
+        "id": 937,
+        "url": "https://www.michi-no-eki.jp/stations/views/19826"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.84352685129977, 35.143137168701955]
+      },
+      "properties": {
+        "name": "保田小学校",
+        "id": 938,
+        "url": "https://www.michi-no-eki.jp/stations/views/19827"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.38260319237847, 35.577222813891716]
+      },
+      "properties": {
+        "name": "みのりの郷東金",
+        "id": 939,
+        "url": "https://www.michi-no-eki.jp/stations/views/19845"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.05236287955347, 35.359915673719044]
+      },
+      "properties": {
+        "name": "木更津うまくたの里",
+        "id": 940,
+        "url": "https://www.michi-no-eki.jp/stations/views/19892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.92014821396845, 35.74977636518831]
+      },
+      "properties": {
+        "name": "いちかわ",
+        "id": 941,
+        "url": "https://www.michi-no-eki.jp/stations/views/19905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.90671937342043, 35.00050469901123]
+      },
+      "properties": {
+        "name": "グリーンファーム館山",
+        "id": 942,
+        "url": "https://www.michi-no-eki.jp/stations/views/22268"
+      }
     }
   ]
 }
