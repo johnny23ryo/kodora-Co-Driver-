@@ -11316,6 +11316,54 @@
         "id": 943,
         "url": "https://www.michi-no-eki.jp/stations/views/19149"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.01487132927417, 35.18643393458817]
+      },
+      "properties": {
+        "name": "箱根峠",
+        "id": 944,
+        "url": "https://www.michi-no-eki.jp/stations/views/19150"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.031190304681, 35.37992201033801]
+      },
+      "properties": {
+        "name": "山北",
+        "id": 945,
+        "url": "https://www.michi-no-eki.jp/stations/views/19151"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.2774818139534, 35.48252289887908]
+      },
+      "properties": {
+        "name": "清川",
+        "id": 946,
+        "url": "https://www.michi-no-eki.jp/stations/views/19846"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.11851490046212, 35.32588414538982]
+      },
+      "properties": {
+        "name": "足柄・金太郎のふるさと",
+        "id": 947,
+        "url": "https://www.michi-no-eki.jp/stations/views/19946"
+      }
     }
   ]
 }
