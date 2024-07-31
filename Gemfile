@@ -60,6 +60,8 @@ gem 'config'
 gem 'fog-aws'
 gem 'aws-sdk-s3', require: false
 
+# 静的OGP
+gem "meta-tags"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 

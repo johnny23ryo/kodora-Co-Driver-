@@ -32,5 +32,12 @@
         <% end %>
       </div>
     </div>
+
+    <div>
+      <%= link_to "https://twitter.com/share?url=#{request.url}&text=#{@post.title}というイベントがあるよ、みんな行ってみてね！%0A&hashtags=コドラ,kodora_co_driver,車,ドライブ", target: '_blank', rel: "noopener noreferrer", class: 'twitter-share-button flex items-center justify-center' do %>
+        <img src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" alt="Twitter" width="50" height="50" class="mr-2">
+        Twitter(X)でシェア
+      <% end %>
+    </div>
   </div>
 </div>
