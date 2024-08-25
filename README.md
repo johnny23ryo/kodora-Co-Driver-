@@ -51,4 +51,15 @@ MVP
 データベース: MySQL
 
 
+技術構成
+使用技術
+カテゴリ	技術
+フロントエンド	JavaScript, TailwindCSS, Rails 7.0.8(Hotwire/Turbo)
+バックエンド	Ruby 3.2.2, Rails 7.0.8
+データベース	PostgreSQL
+環境構築	Docker
+インフラ	Render
+Web API	Open AI API(GPT-4o),Google Maps API, Google Sign-In
+
+
 [![Image from Gyazo](https://i.gyazo.com/7e73709546f49de6076c7e34576d00d4.png)](https://gyazo.com/7e73709546f49de6076c7e34576d00d4)
