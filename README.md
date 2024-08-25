@@ -39,7 +39,7 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 ### 使用技術
 |カテゴリ|技術|
 |:-------------|:------------|
-|フロントエンド|JavaScript / TailwindCSS / Rails 7.0.8(Hotwire/Turbo)|
+|フロントエンド|JavaScript / TailwindCSS |
 |バックエンド|Ruby 3.2.2 / Rails 7.0.8|
 |データベース|PostgreSQL|
 |環境構築|Docker|
