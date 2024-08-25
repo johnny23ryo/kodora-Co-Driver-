@@ -58,12 +58,12 @@ MVP
 ### 使用技術
 |カテゴリ|技術|
 |:-------------|:------------|
-|フロントエンド|JavaScript, TailwindCSS, Rails 7.0.8(Hotwire/Turbo)|
-|バックエンド|Ruby 3.2.2, Rails 7.0.8|
+|フロントエンド|JavaScript / TailwindCSS / Rails 7.0.8(Hotwire/Turbo)|
+|バックエンド|Ruby 3.2.2 / Rails 7.0.8|
 |データベース|PostgreSQL|
 |環境構築|Docker|
-|インフラ|Render,Amazon S3 |
-|Web API| Open AI API(GPT-4), Google Maps JavaScript API,Google Places API,Google Geolocation API, Google Sign-In |
+|インフラ|Render / Amazon S3 |
+|Web API| Open AI API(GPT-4) / Google Maps JavaScript API / Google Places API / Google Geolocation API / Google Sign-In |
 	
 	
 
