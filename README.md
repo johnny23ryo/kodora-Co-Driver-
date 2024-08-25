@@ -63,8 +63,7 @@ MVP
 |データベース|PostgreSQL|
 |環境構築|Docker|
 |インフラ|Render,Amazon S3 |
-|Web API| Open AI API(GPT-4), Google Maps JavaScript API,
-Google Places API,Google Geolocation API, Google Sign-In |
+|Web API| Open AI API(GPT-4), Google Maps JavaScript API,Google Places API,Google Geolocation API, Google Sign-In |
 	
 	
 
