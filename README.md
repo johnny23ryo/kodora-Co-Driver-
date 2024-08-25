@@ -44,7 +44,7 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 |データベース|PostgreSQL|
 |環境構築|Docker|
 |インフラ|Render / Amazon S3 |
-|Web API| Open AI API(GPT-4) / Google Maps JavaScript API / Google Places API / Google Geolocation API / Google Sign-In |
+|Web API| Open AI API(GPT-4o) / Google Maps JavaScript API / Google Places API / Google Geolocation API / Google Sign-In |
 	
 	
 ## 画面遷移図
