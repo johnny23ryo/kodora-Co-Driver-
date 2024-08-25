@@ -62,8 +62,9 @@ MVP
 |バックエンド|Ruby 3.2.2, Rails 7.0.8|
 |データベース|PostgreSQL|
 |環境構築|Docker|
-|インフラ|Render|
-|Web API| Open AI API(GPT-4), Google Maps API, Google Sign-In |
+|インフラ|Render,Amazon S3 |
+|Web API| Open AI API(GPT-4), Google Maps JavaScript API,
+Google Places API,Google Geolocation API, Google Sign-In |
 	
 	
 
