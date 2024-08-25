@@ -49,7 +49,8 @@ MVP
 開発環境: docker
 バックエンド: Ruby 3.2.2/Ruby on Rails 7系
 データベース: MySQL
-
+	
+	
 
 技術構成
 使用技術
@@ -60,6 +61,7 @@ MVP
 環境構築	Docker
 インフラ	Render
 Web API	Open AI API(GPT-4o),Google Maps API, Google Sign-In
-
+	
+	
 
 [![Image from Gyazo](https://i.gyazo.com/7e73709546f49de6076c7e34576d00d4.png)](https://gyazo.com/7e73709546f49de6076c7e34576d00d4)
