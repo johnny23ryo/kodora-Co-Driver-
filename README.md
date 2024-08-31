@@ -53,4 +53,5 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 ## ER図
 [![Image from Gyazo](https://i.gyazo.com/7e73709546f49de6076c7e34576d00d4.png)](https://gyazo.com/7e73709546f49de6076c7e34576d00d4)
 
+## ER図
 [![Image from Gyazo](https://i.gyazo.com/5e83a60f4a2d722922f47e8bdb05cbf9.png)](https://gyazo.com/5e83a60f4a2d722922f47e8bdb05cbf9)
