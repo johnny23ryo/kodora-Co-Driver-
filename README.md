@@ -51,7 +51,4 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 [画面遷移図](https://www.figma.com/design/t6d8lv9hHXj49bZN5oKT8D/runteq%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C?node-id=0-1&t=0ZLOjcjA4HG9lWPC-0)
 
 ## ER図
-[![Image from Gyazo](https://i.gyazo.com/7e73709546f49de6076c7e34576d00d4.png)](https://gyazo.com/7e73709546f49de6076c7e34576d00d4)
-
-## ER図
 [![Image from Gyazo](https://i.gyazo.com/6c2cc87673b073e39b4edb190a620a99.png)](https://gyazo.com/6c2cc87673b073e39b4edb190a620a99)
