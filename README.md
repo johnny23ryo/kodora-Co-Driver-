@@ -31,6 +31,26 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 
 ## 機能紹介
 
+|トップ画面| ログイン画面 |
+|:-:|:-:|
+|[![Image from Gyazo](https://i.gyazo.com/6bb75cbe7f80c4957e1b38c30768a803.gif)](https://gyazo.com/6bb75cbe7f80c4957e1b38c30768a803)|[![Image from Gyazo](https://i.gyazo.com/8f07278a6c5150649334d51a9e6f5975.jpg)](https://gyazo.com/8f07278a6c5150649334d51a9e6f5975)|
+|メイン機能が一目でわかるようにし、すぐに機能がを使えるような動線にしました。？マークを押すと、詳細な説明を見ることができます。|多様なログイン方法を用意しました。ログインが必要な機能を触った時にログイン画面へ誘導するようにし、ログインするハードルを低くしました。|
+
+|みんなのRe:QUEST一覧| Re:QUEST挑戦 |
+|:-:|:-:|
+|[![Image from Gyazo](https://i.gyazo.com/977bea1268b7facff64403e22c7ef80e.gif)](https://gyazo.com/977bea1268b7facff64403e22c7ef80e)|[![Image from Gyazo](https://i.gyazo.com/d4b107c743133e555a653d615356d467.gif)](https://gyazo.com/d4b107c743133e555a653d615356d467)|
+|すべてのRe:QUESTを見ることができます。タイトルを選ぶと、謎解きに挑戦できます。タグを選ぶと、同じタグをつけたものを一覧で見ることがきます。|謎解きに挑戦できます。XやLINEで共有すると、挑戦したRe:QUESTのリンクに設定されます。|
+
+| 🔶 Re:QUEST作成| 🔶 Re:QUEST詳細 |
+|:-:|:-:|
+|[![Image from Gyazo](https://i.gyazo.com/3b411c093c4980b568d0a936a1418c6d.gif)](https://gyazo.com/3b411c093c4980b568d0a936a1418c6d)|[![Image from Gyazo](https://i.gyazo.com/907906068eb40271f8108324830a2780.gif)](https://gyazo.com/907906068eb40271f8108324830a2780)|
+|欲しいものをもとにOpenAIでRe:QUESTを作成します。作成中と分かるようにモーダルが表示されます。1日5つまで作成できます。|Re:QUESTの詳細内容を見ることができます。気になった箇所は、その場で編集できます。XやLINEで共有すると、作成したRe:QUEST挑戦画面へリンクが設定されます。|
+
+|🔶 フォロー機能|🔶 挑戦したRe:QUESTの背景色|
+|:-:|:-:|
+|[![Image from Gyazo](https://i.gyazo.com/cc658be33528419a1293a3825449cae2.gif)](https://gyazo.com/cc658be33528419a1293a3825449cae2)|[![Image from Gyazo](https://i.gyazo.com/0854ac65276e840e0e96562235eff90a.png)](https://gyazo.com/0854ac65276e840e0e96562235eff90a)|
+|他ユーザーをフォローできます。フォロー、フォロワーを一覧で確認できます。|正解したRe:QUESTは背景が自動変更されます。挑戦したかどうか一目でわかります。また正解した時の難易度で色が変わります(難しい→ピンク、簡単→黄色)|
+
 
 	
 	
