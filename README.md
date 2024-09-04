@@ -53,7 +53,7 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 
 |イベント作成|イベント詳細|
 |:-:|:-:|
-写真----------------------------- | 写真-----------
+[![Image from Gyazo](https://i.gyazo.com/1bc514eb96aae95f7bbe94beb3b2f56b.png)](https://gyazo.com/1bc514eb96aae95f7bbe94beb3b2f56b)| [![Image from Gyazo](https://i.gyazo.com/dc882377b6d5165c1ae8b3422ff795fb.jpg)](https://gyazo.com/dc882377b6d5165c1ae8b3422ff795fb)
 |ローカルやマイナーなイベントの情報を収集するためにユーザー投稿形式にしています。|イベントの開催期間などの詳細情報を掲示しています。|
 
 
