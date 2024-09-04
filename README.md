@@ -48,7 +48,7 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 
 |イベント一覧|イベントピックアップ機能 |
 |:-:|:-:|
-[![Image from Gyazo](https://i.gyazo.com/012ea88efca9d2caf78f56151bd0b2da.gif)](https://gyazo.com/012ea88efca9d2caf78f56151bd0b2da)
+[![Image from Gyazo](https://i.gyazo.com/012ea88efca9d2caf78f56151bd0b2da.gif)](https://gyazo.com/012ea88efca9d2caf78f56151bd0b2da)| [![Image from Gyazo](https://i.gyazo.com/94f4131c8810ff5cf3cc6713db6f130d.jpg)](https://gyazo.com/94f4131c8810ff5cf3cc6713db6f130d)
 |投稿されたイベントがグーグルマップ上にピンで表示されており、一目で自分が行きたいイベントが分かるようになっています。|ランダムで投稿を3つ表示させています。|
 
 |イベント作成|イベント詳細|
