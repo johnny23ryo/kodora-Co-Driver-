@@ -33,7 +33,7 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 
 |トップ画面| ログイン画面 |
 |:-:|:-:|
-[![Image from Gyazo](https://i.gyazo.com/17b0809d81d3d56ce80f5af3d63e140c.gif)](https://gyazo.com/17b0809d81d3d56ce80f5af3d63e140c)| 写真-----------
+[<a href="https://gyazo.com/17b0809d81d3d56ce80f5af3d63e140c"><img src="https://i.gyazo.com/17b0809d81d3d56ce80f5af3d63e140c.gif" alt="Image from Gyazo" width="1000"/></a>| https://i.gyazo.com/17b0809d81d3d56ce80f5af3d63e140c.gif　　　　　　　　　写真-----------
 |4つのメイン機能が一目でわかるようにし、すぐに機能がを使えるような動線にしました。|グーグルログインを用意しました。できるだけログインしなくとも利用できるようにしており、道の駅スタンプラリー機能、新規投稿機能以外は全てログインせずに使用できます。|
 
 |おすすめのスポット一覧| おすすめのレストラン、休憩所、食事処検索 |
