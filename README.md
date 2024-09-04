@@ -58,10 +58,6 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 
 
 
- | アプリ機能1 | アプリ機能1 |
-|:-----------:|:------------:|
-| [![Image from Gyazo](https://i.gyazo.com/17b0809d81d3d56ce80f5af3d63e140c.gif)](https://gyazo.com/17b0809d81d3d56ce80f5af3d63e140c) | [![Image from Gyazo](https://i.gyazo.com/6bb75cbe7f80c4957e1b38c30768a803.gif)](https://gyazo.com/6bb75cbe7f80c4957e1b38c30768a803) |
-| アプリ機能の説明が入ります。アプリ機能の説明が入ります。 | アプリ機能の説明が入ります。アプリ機能の説明が入ります。 |
 
 </br>
 
