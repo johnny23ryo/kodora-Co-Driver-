@@ -56,15 +56,7 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 写真----------------------------- | 写真-----------
 |ローカルやマイナーなイベントの情報を収集するためにユーザー投稿形式にしています。|ランダムで投稿を3つ表示させています。|
 
-[![Image from Gyazo](https://i.gyazo.com/313adb4e2f7aa50a63fa8367680b2e17.gif)](https://gyazo.com/313adb4e2f7aa50a63fa8367680b2e17)
-[![Image from Gyazo](https://i.gyazo.com/db8820c859d8e6154245603507d131cf.gif)](https://gyazo.com/db8820c859d8e6154245603507d131cf)
-![Image from Gyazo](https://gyazo.com/bb11db489695cc74801eca1bbde901c1.gif)
 
-https://i.gyazo.com/db8820c859d8e6154245603507d131cf.gif
-
-<a href="https://gyazo.com/db8820c859d8e6154245603507d131cf"><img src="https://i.gyazo.com/db8820c859d8e6154245603507d131cf.gif" alt="Image from Gyazo" width="1000"/></a>
-
-[![Image from Gyazo](https://i.gyazo.com/db8820c859d8e6154245603507d131cf.gif)](https://gyazo.com/db8820c859d8e6154245603507d131cf)
 
 
 
