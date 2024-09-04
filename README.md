@@ -1,7 +1,6 @@
 
 ## サービス名: コドラ
 
- <img src="https://i.gyazo.com/a91e7875b7f0dd239688477f8a063735.jpg">
 
  <a href="https://gyazo.com/a91e7875b7f0dd239688477f8a063735"><img src="https://i.gyazo.com/a91e7875b7f0dd239688477f8a063735.jpg" alt="Image from Gyazo" width="475"/></a>
 
