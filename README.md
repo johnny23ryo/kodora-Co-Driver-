@@ -57,7 +57,7 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 |ローカルやマイナーなイベントの情報を収集するためにユーザー投稿形式にしています。|ランダムで投稿を3つ表示させています。|
 
 
-
+[![Image from Gyazo](https://i.gyazo.com/cbe5bbb15fcf5924f14d86896d717411.png)](https://gyazo.com/cbe5bbb15fcf5924f14d86896d717411)
 
 </br>
 
