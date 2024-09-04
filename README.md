@@ -1,6 +1,8 @@
 
 ## サービス名: コドラ
 
+ <img src="https://i.gyazo.com/a91e7875b7f0dd239688477f8a063735.jpg">
+
 [![Image from Gyazo](https://i.gyazo.com/a91e7875b7f0dd239688477f8a063735.jpg)](https://gyazo.com/a91e7875b7f0dd239688477f8a063735)
 
 <img src="https://img.shields.io/badge/-RubyonRails-CC0000.svg?logo=rubyonrails&style=popout"> <img src="https://img.shields.io/badge/-Ruby-CC342D.svg?logo=ruby&style=popout"> <img src="https://img.shields.io/badge/-Javascript-F7DF1E.svg?logo=javascript&style=popout">
