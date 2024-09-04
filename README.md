@@ -60,6 +60,14 @@ X(旧:Twitter)でのシェア機能を追加し利用を促す。
 [![Image from Gyazo](https://i.gyazo.com/db8820c859d8e6154245603507d131cf.gif)](https://gyazo.com/db8820c859d8e6154245603507d131cf)
 ![Image from Gyazo](https://gyazo.com/bb11db489695cc74801eca1bbde901c1.gif)
 
+https://i.gyazo.com/db8820c859d8e6154245603507d131cf.gif
+
+<a href="https://gyazo.com/db8820c859d8e6154245603507d131cf"><img src="https://i.gyazo.com/db8820c859d8e6154245603507d131cf.gif" alt="Image from Gyazo" width="1000"/></a>
+
+[![Image from Gyazo](https://i.gyazo.com/db8820c859d8e6154245603507d131cf.gif)](https://gyazo.com/db8820c859d8e6154245603507d131cf)
+
+
+
 </br>
 
 ## 技術構成
