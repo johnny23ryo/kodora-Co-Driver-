@@ -29,12 +29,12 @@
 
 |おすすめのスポット一覧| おすすめのレストラン、休憩所、食事処検索 |
 |:-:|:-:|
-[![Image from Gyazo](https://i.gyazo.com/90079da977e4266337d4972d8549c242.gif)](https://gyazo.com/90079da977e4266337d4972d8549c242) | 写真-----------
+[![Image from Gyazo](https://i.gyazo.com/90079da977e4266337d4972d8549c242.gif)](https://gyazo.com/90079da977e4266337d4972d8549c242) | [![Image from Gyazo](https://i.gyazo.com/e12cdd86b504e6f7e46bebd83710efdb.gif)](https://gyazo.com/e12cdd86b504e6f7e46bebd83710efdb)
 |おすすめのスポット一覧ボタンをhoverすると3つの機能が表示されるようにしました。|検索したい住所を入力して検索ボタンをクリックするとおすすめのスポットとスポットの魅力的な説明文を提示します。|
 
 |ルート検索| 道の駅スタンプラリー機能|
 |:-:|:-:|
-写真----------------------------- | 写真-----------
+[![Image from Gyazo](https://i.gyazo.com/e23cdd2f8f83c9edeaae1313da90f908.gif)](https://gyazo.com/e23cdd2f8f83c9edeaae1313da90f908) | [![Image from Gyazo](https://i.gyazo.com/09bfcdbb31a3278f1d6732d53d11a2b5.gif)](https://gyazo.com/09bfcdbb31a3278f1d6732d53d11a2b5)
 |目的地を入力すると、現在地から目的地までの所要時間や経路を表示します。|ユーザーが道の駅を訪れたことをアプリに伝えていただくとスタンプを付与します。|
 
 |イベント一覧|イベントピックアップ機能 |
@@ -46,6 +46,7 @@
 |:-:|:-:|
 [![Image from Gyazo](https://i.gyazo.com/1bc514eb96aae95f7bbe94beb3b2f56b.png)](https://gyazo.com/1bc514eb96aae95f7bbe94beb3b2f56b)| [![Image from Gyazo](https://i.gyazo.com/dc882377b6d5165c1ae8b3422ff795fb.jpg)](https://gyazo.com/dc882377b6d5165c1ae8b3422ff795fb)
 |ローカルやマイナーなイベントの情報を収集するためにユーザー投稿形式にしています。|イベントの開催期間などの詳細情報を掲示しています。|
+
 
 
 
